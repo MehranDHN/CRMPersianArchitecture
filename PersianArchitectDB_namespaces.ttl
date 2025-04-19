@@ -1,0 +1,13 @@
+PREFIX : <http://example.org/persian-architecture-ontology#>
+PREFIX aat: <http://vocab.getty.edu/aat/>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX mdhn: <http://example.com/mdhn/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX so: <https://schema.org/>
+PREFIX stardog: <tag:stardog:api:>
+PREFIX tgm: <http://id.loc.gov/vocabulary/tgm/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>

@@ -1,0 +1,537 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://example.org/persian-architecture-ontology#> .
+@prefix mdhn: <http://example.com/mdhn/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix tgm: <http://id.loc.gov/vocabulary/tgm/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+
+# Ontology Metadata
+: a owl:Ontology ;
+  rdfs:label "Persian Architecture Ontology with CIDOC CRM"@en, "ونتولوژی معماری پارسی با CIDOC CRM"@fa ;
+  rdfs:comment "An ontology for modeling Persian architectural monuments, such as the Jameh Mosque of Isfahan, integrating a minimal CIDOC CRM subset with custom classes and properties. Includes inverse properties for enhanced graph navigation and inference in Stardog Explorer, supporting monuments, inscriptions, documents, and digital manifests."@en ;
+  dc:creator "Persian Architecture Research Team"@en ;
+  owl:versionInfo "2.1"@en ;
+  dc:date "2025-04-19"^^xsd:date .
+
+# CIDOC CRM Classes
+crm:E1_CRM_Entity a owl:Class ;
+  rdfs:label "E1 CRM Entity"@en ;
+  rdfs:comment "Root class for all entities in CIDOC CRM."@en ;
+  skos:definition "The foundational class encompassing all entities with identity in CIDOC CRM."@en .
+
+crm:E2_Temporal_Entity a owl:Class ;
+  rdfs:subClassOf crm:E1_CRM_Entity ;
+  rdfs:label "E2 Temporal Entity"@en ;
+  rdfs:comment "Entities with temporal extent, such as events or periods."@en .
+
+crm:E4_Period a owl:Class ;
+  rdfs:subClassOf crm:E2_Temporal_Entity ;
+  rdfs:label "E4 Period"@en ;
+  rdfs:comment "Temporal entities with cultural or historical significance."@en .
+
+crm:E5_Event a owl:Class ;
+  rdfs:subClassOf crm:E4_Period ;
+  rdfs:label "E5 Event"@en ;
+  rdfs:comment "Specific occurrences or changes, such as construction or modification."@en .
+
+crm:E7_Activity a owl:Class ;
+  rdfs:subClassOf crm:E5_Event ;
+  rdfs:label "E7 Activity"@en ;
+  rdfs:comment "Intentional actions performed by actors, such as building a monument."@en .
+
+crm:E11_Modification a owl:Class ;
+  rdfs:subClassOf crm:E7_Activity ;
+  rdfs:label "E11 Modification"@en ;
+  rdfs:comment "Activities that alter physical things, such as renovations."@en .
+
+crm:E12_Production a owl:Class ;
+  rdfs:subClassOf crm:E11_Modification ;
+  rdfs:label "E12 Production"@en ;
+  rdfs:comment "Activities that create physical things, such as constructing a mosque."@en .
+
+crm:E18_Physical_Thing a owl:Class ;
+  rdfs:subClassOf crm:E72_Legal_Object ;
+  rdfs:label "E18 Physical Thing"@en ;
+  rdfs:comment "Physical entities with spatial extent, such as monuments."@en .
+
+crm:E22_Man-Made_Object a owl:Class ;
+  rdfs:subClassOf crm:E28_Conceptual_Object, crm:E72_Legal_Object ;
+  rdfs:label "E22 Man-Made Object"@en ;
+  rdfs:comment "Objects intentionally created by humans, such as architectural elements."@en .
+
+crm:E24_Physical_Man-Made_Thing a owl:Class ;
+  rdfs:subClassOf crm:E18_Physical_Thing, crm:E22_Man-Made_Object ;
+  rdfs:label "E24 Physical Man-Made Thing"@en ;
+  rdfs:comment "Physical objects created by humans, such as mosques or iwans."@en .
+
+crm:E28_Conceptual_Object a owl:Class ;
+  rdfs:subClassOf crm:E71_Man-Made_Thing ;
+  rdfs:label "E28 Conceptual Object"@en ;
+  rdfs:comment "Non-physical entities created by humans, such as designs or texts."@en .
+
+crm:E31_Document a owl:Class ;
+  rdfs:subClassOf crm:E73_Information_Object ;
+  rdfs:label "E31 Document"@en ;
+  rdfs:comment "Information carriers that document entities, such as photographs."@en .
+
+crm:E33_Linguistic_Object a owl:Class ;
+  rdfs:subClassOf crm:E73_Information_Object ;
+  rdfs:label "E33 Linguistic Object"@en ;
+  rdfs:comment "Textual content with linguistic structure, such as inscription texts."@en .
+
+crm:E34_Inscription a owl:Class ;
+  rdfs:subClassOf crm:E33_Linguistic_Object, crm:E37_Mark ;
+  rdfs:label "E34 Inscription"@en ;
+  rdfs:comment "Written texts on physical carriers, such as Kufic inscriptions."@en .
+
+crm:E36_Visual_Item a owl:Class ;
+  rdfs:subClassOf crm:E73_Information_Object ;
+  rdfs:label "E36 Visual Item"@en ;
+  rdfs:comment "Visual content, such as images or designs."@en .
+
+crm:E37_Mark a owl:Class ;
+  rdfs:subClassOf crm:E36_Visual_Item ;
+  rdfs:label "E37 Mark"@en ;
+  rdfs:comment "Physical marks, such as inscriptions or carvings."@en .
+
+crm:E39_Actor a owl:Class ;
+  rdfs:subClassOf crm:E77_Persistent_Item ;
+  rdfs:label "E39 Actor"@en ;
+  rdfs:comment "Persons or groups performing activities, such as patrons or architects."@en .
+
+crm:E41_Appellation a owl:Class ;
+  rdfs:subClassOf crm:E90_Symbolic_Object ;
+  rdfs:label "E41 Appellation"@en ;
+  rdfs:comment "Names or identifiers for entities, such as 'Jameh Mosque'."@en .
+
+crm:E52_Time-Span a owl:Class ;
+  rdfs:subClassOf crm:E1_CRM_Entity ;
+  rdfs:label "E52 Time-Span"@en ;
+  rdfs:comment "Temporal durations associated with events or periods."@en .
+
+crm:E53_Place a owl:Class ;
+  rdfs:subClassOf crm:E1_CRM_Entity ;
+  rdfs:label "E53 Place"@en ;
+  rdfs:comment "Geographical locations, such as cities or sites."@en .
+
+crm:E55_Type a owl:Class ;
+  rdfs:subClassOf crm:E28_Conceptual_Object ;
+  rdfs:label "E55 Type"@en ;
+  rdfs:comment "Classifications or categories, such as architectural styles or script types."@en .
+
+crm:E56_Language a owl:Class ;
+  rdfs:subClassOf crm:E55_Type ;
+  rdfs:label "E56 Language"@en ;
+  rdfs:comment "Languages used in linguistic objects, such as Arabic or Persian."@en .
+
+crm:E70_Thing a owl:Class ;
+  rdfs:subClassOf crm:E1_CRM_Entity ;
+  rdfs:label "E70 Thing"@en ;
+  rdfs:comment "Entities with physical or conceptual presence."@en .
+
+crm:E71_Man-Made_Thing a owl:Class ;
+  rdfs:subClassOf crm:E70_Thing ;
+  rdfs:label "E71 Man-Made Thing"@en ;
+  rdfs:comment "Things created by humans, physical or conceptual."@en .
+
+crm:E72_Legal_Object a owl:Class ;
+  rdfs:subClassOf crm:E1_CRM_Entity ;
+  rdfs:label "E72 Legal Object"@en ;
+  rdfs:comment "Entities subject to ownership or rights."@en .
+
+crm:E73_Information_Object a owl:Class ;
+  rdfs:subClassOf crm:E90_Symbolic_Object ;
+  rdfs:label "E73 Information Object"@en ;
+  rdfs:comment "Non-physical carriers of information, such as documents or texts."@en .
+
+crm:E77_Persistent_Item a owl:Class ;
+  rdfs:subClassOf crm:E1_CRM_Entity ;
+  rdfs:label "E77 Persistent Item"@en ;
+  rdfs:comment "Entities with persistent identity, such as actors or objects."@en .
+
+crm:E89_Propositional_Object a owl:Class ;
+  rdfs:subClassOf crm:E28_Conceptual_Object ;
+  rdfs:label "E89 Propositional Object"@en ;
+  rdfs:comment "Conceptual entities with propositional content, such as documents."@en .
+
+crm:E90_Symbolic_Object a owl:Class ;
+  rdfs:subClassOf crm:E28_Conceptual_Object, crm:E72_Legal_Object ;
+  rdfs:label "E90 Symbolic Object"@en ;
+  rdfs:comment "Conceptual entities carrying information, such as names or texts."@en .
+
+# CIDOC CRM Object Properties
+crm:P1_is_identified_by a owl:ObjectProperty ;
+  rdfs:domain crm:E1_CRM_Entity ;
+  rdfs:range crm:E41_Appellation ;
+  rdfs:label "P1 is identified by"@en ;
+  rdfs:comment "Associates an entity with its name or identifier."@en ;
+  owl:inverseOf crm:P1i_identifies .
+
+crm:P1i_identifies a owl:ObjectProperty ;
+  rdfs:domain crm:E41_Appellation ;
+  rdfs:range crm:E1_CRM_Entity ;
+  rdfs:label "P1i identifies"@en ;
+  rdfs:comment "Associates a name or identifier with its entity."@en .
+
+crm:P2_has_type a owl:ObjectProperty ;
+  rdfs:domain crm:E1_CRM_Entity ;
+  rdfs:range crm:E55_Type ;
+  rdfs:label "P2 has type"@en ;
+  rdfs:comment "Associates an entity with a type or classification."@en .
+
+crm:P7_took_place_at a owl:ObjectProperty ;
+  rdfs:domain crm:E4_Period ;
+  rdfs:range crm:E53_Place ;
+  rdfs:label "P7 took place at"@en ;
+  rdfs:comment "Associates an event with its geographical location."@en .
+
+crm:P14_carried_out_by a owl:ObjectProperty ;
+  rdfs:domain crm:E7_Activity ;
+  rdfs:range crm:E39_Actor ;
+  rdfs:label "P14 carried out by"@en ;
+  rdfs:comment "Associates an activity with its actor."@en .
+
+crm:P46_is_composed_of a owl:ObjectProperty ;
+  rdfs:domain crm:E18_Physical_Thing ;
+  rdfs:range crm:E18_Physical_Thing ;
+  rdfs:label "P46 is composed of"@en ;
+  rdfs:comment "Associates a physical thing with its components."@en ;
+  owl:inverseOf crm:P46i_is_composed_by .
+
+crm:P46i_is_composed_by a owl:ObjectProperty ;
+  rdfs:domain crm:E18_Physical_Thing ;
+  rdfs:range crm:E18_Physical_Thing ;
+  rdfs:label "P46i is composed by"@en ;
+  rdfs:comment "Associates a component with its containing physical thing."@en .
+
+crm:P67_refers_to a owl:ObjectProperty ;
+  rdfs:domain crm:E89_Propositional_Object ;
+  rdfs:range crm:E1_CRM_Entity ;
+  rdfs:label "P67 refers to"@en ;
+  rdfs:comment "Associates a document with the entity it describes."@en ;
+  owl:inverseOf crm:P67i_is_referred_to_by .
+
+crm:P67i_is_referred_to_by a owl:ObjectProperty ;
+  rdfs:domain crm:E1_CRM_Entity ;
+  rdfs:range crm:E89_Propositional_Object ;
+  rdfs:label "P67i is referred to by"@en ;
+  rdfs:comment "Associates an entity with documents that describe it."@en .
+
+crm:P72_has_language a owl:ObjectProperty ;
+  rdfs:domain crm:E33_Linguistic_Object ;
+  rdfs:range crm:E56_Language ;
+  rdfs:label "P72 has language"@en ;
+  rdfs:comment "Associates a linguistic object with its language."@en .
+
+crm:P129_is_about a owl:ObjectProperty ;
+  rdfs:domain crm:E89_Propositional_Object ;
+  rdfs:range crm:E1_CRM_Entity ;
+  rdfs:label "P129 is about"@en ;
+  rdfs:comment "Associates a document with its subject matter."@en ;
+  owl:inverseOf crm:P129i_is_subject_of .
+
+crm:P129i_is_subject_of a owl:ObjectProperty ;
+  rdfs:domain crm:E1_CRM_Entity ;
+  rdfs:range crm:E89_Propositional_Object ;
+  rdfs:label "P129i is subject of"@en ;
+  rdfs:comment "Associates a subject with documents about it."@en .
+
+crm:P165_incorporates a owl:ObjectProperty ;
+  rdfs:domain crm:E73_Information_Object ;
+  rdfs:range crm:E73_Information_Object ;
+  rdfs:label "P165 incorporates"@en ;
+  rdfs:comment "Associates an inscription with its linguistic content."@en ;
+  owl:inverseOf crm:P165i_is_incorporated_in .
+
+crm:P165i_is_incorporated_in a owl:ObjectProperty ;
+  rdfs:domain crm:E73_Information_Object ;
+  rdfs:range crm:E73_Information_Object ;
+  rdfs:label "P165i is incorporated in"@en ;
+  rdfs:comment "Associates linguistic content with its containing inscription."@en .
+
+# CIDOC CRM Datatype Properties
+crm:P3_has_note a owl:DatatypeProperty ;
+  rdfs:domain crm:E1_CRM_Entity ;
+  rdfs:range xsd:string ;
+  rdfs:label "P3 has note"@en ;
+  rdfs:comment "Associates an entity with a textual note."@en .
+
+# Custom Classes
+:Monument a owl:Class ;
+  rdfs:subClassOf crm:E24_Physical_Man-Made_Thing ;
+  rdfs:label "Monument"@en, "بنای تاریخی"@fa ;
+  rdfs:comment "A physical man-made structure in Persian architecture, such as a mosque, dome, or iwan."@en ;
+  skos:definition "Includes mosques, domes, iwans, and other architectural complexes with cultural significance."@en .
+
+:Inscription a owl:Class ;
+  rdfs:subClassOf crm:E34_Inscription ;
+  rdfs:label "Inscription"@en, "کتیبه"@fa ;
+  rdfs:comment "A written text on a physical carrier, such as Kufic or Nastaʿliq inscriptions on a monument."@en ;
+  skos:definition "Covers calligraphic texts, dedicatory inscriptions, and sacred verses on architectural surfaces."@en .
+
+:Text a owl:Class ;
+  rdfs:subClassOf crm:E33_Linguistic_Object ;
+  rdfs:label "Text"@en, "متن"@fa ;
+  rdfs:comment "The linguistic content of an inscription, such as a Quranic verse or dedicatory note."@en ;
+  skos:definition "Represents the textual content incorporated in inscriptions, with specific languages and styles."@en .
+
+:Document a owl:Class ;
+  rdfs:subClassOf crm:E31_Document ;
+  rdfs:label "Document"@en, "سند"@fa ;
+  rdfs:comment "An information carrier documenting monuments or inscriptions, such as photographs or engravings."@en ;
+  skos:definition "Includes visual or textual records, such as photographs, prints, or digital images."@en .
+
+:IIIFManifest a owl:Class ;
+  rdfs:subClassOf crm:E73_Information_Object ;
+  rdfs:label "IIIFManifest"@en, "مانیفست IIIF"@fa ;
+  rdfs:comment "A digital manifest following the IIIF standard, containing metadata about documents."@en ;
+  skos:definition "Structured metadata for digital objects, linking documents to visual canvases."@en .
+
+:Canvas a owl:Class ;
+  rdfs:subClassOf crm:E73_Information_Object ;
+  rdfs:label "Canvas"@en, "بوم"@fa ;
+  rdfs:comment "A single page or view within an IIIF manifest, representing visual content."@en ;
+  skos:definition "Individual visual components of a manifest, such as an image of an inscription."@en .
+
+:Event a owl:Class ;
+  rdfs:subClassOf crm:E7_Activity ;
+  rdfs:label "Event"@en, "رویداد"@fa ;
+  rdfs:comment "An activity related to a monument, such as construction or restoration."@en ;
+  skos:definition "Covers creation, modification, or documentation events in Persian architecture."@en .
+
+:Actor a owl:Class ;
+  rdfs:subClassOf crm:E39_Actor ;
+  rdfs:label "Actor"@en, "عامل"@fa ;
+  rdfs:comment "A person or group involved in an event, such as a patron or architect."@en ;
+  skos:definition "Includes patrons, architects, calligraphers, or organizations."@en .
+
+:Place a owl:Class ;
+  rdfs:subClassOf crm:E53_Place ;
+  rdfs:label "Place"@en, "مکان"@fa ;
+  rdfs:comment "A geographical location associated with a monument or event, such as Isfahan."@en ;
+  skos:definition "Specific locations where monuments are situated or events occurred."@en .
+
+:TGMSubjectType a owl:Class ;
+  rdfs:subClassOf crm:E55_Type ;
+  rdfs:label "TGM Subject Type"@en, "نوع موضوع TGM"@fa ;
+  rdfs:comment "A subject type from the Thesaurus for Graphic Materials, used for document topics."@en ;
+  skos:definition "Classifies document subjects, such as inscriptions or domes, using TGM terms."@en .
+
+# Custom Object Properties with Inverses
+:isComposedOf a owl:ObjectProperty ;
+  rdfs:domain [ a owl:Class ; owl:unionOf (:Monument :Inscription) ] ;
+  rdfs:range [ a owl:Class ; owl:unionOf (:Monument :Inscription) ] ;
+  rdfs:label "is composed of"@en, "شامل می‌شود"@fa ;
+  rdfs:comment "Associates a monument or inscription with its components, e.g., a mosque with its mihrabs or inscriptions."@en ;
+  rdfs:subPropertyOf crm:P46_is_composed_of ;
+  owl:inverseOf :isPartOf .
+
+:isPartOf a owl:ObjectProperty ;
+  rdfs:domain [ a owl:Class ; owl:unionOf (:Monument :Inscription) ] ;
+  rdfs:range [ a owl:Class ; owl:unionOf (:Monument :Inscription) ] ;
+  rdfs:label "is part of"@en, "بخشی از"@fa ;
+  rdfs:comment "Associates a component with its containing monument or inscription, e.g., a mihrab with its mosque."@en ;
+  rdfs:subPropertyOf crm:P46i_is_composed_by .
+
+:incorporates a owl:ObjectProperty ;
+  rdfs:domain :Inscription ;
+  rdfs:range :Text ;
+  rdfs:label "incorporates"@en, "شامل می‌شود"@fa ;
+  rdfs:comment "Associates an inscription with its linguistic content, e.g., a Kufic inscription with its Quranic text."@en ;
+  rdfs:subPropertyOf crm:P165_incorporates ;
+  owl:inverseOf :isIncorporatedIn .
+
+:isIncorporatedIn a owl:ObjectProperty ;
+  rdfs:domain :Text ;
+  rdfs:range :Inscription ;
+  rdfs:label "is incorporated in"@en, "درج شده در"@fa ;
+  rdfs:comment "Associates linguistic content with its containing inscription."@en ;
+  rdfs:subPropertyOf crm:P165i_is_incorporated_in .
+
+:refersTo a owl:ObjectProperty ;
+  rdfs:domain :Document ;
+  rdfs:range [ a owl:Class ; owl:unionOf (:Monument :Inscription) ] ;
+  rdfs:label "refers to"@en, "اشاره دارد به"@fa ;
+  rdfs:comment "Associates a document with the monument or inscription it describes, e.g., a photograph of an inscription."@en ;
+  rdfs:subPropertyOf crm:P67_refers_to ;
+  owl:inverseOf :isReferredToBy .
+
+:isReferredToBy a owl:ObjectProperty ;
+  rdfs:domain [ a owl:Class ; owl:unionOf (:Monument :Inscription) ] ;
+  rdfs:range :Document ;
+  rdfs:label "is referred to by"@en, "اشاره شده توسط"@fa ;
+  rdfs:comment "Associates a monument or inscription with documents that describe it."@en ;
+  rdfs:subPropertyOf crm:P67i_is_referred_to_by .
+
+:isDocumentedIn a owl:ObjectProperty ;
+  rdfs:domain :Document ;
+  rdfs:range :IIIFManifest ;
+  rdfs:label "is documented in"@en, "مستند شده در"@fa ;
+  rdfs:comment "Associates a document with its IIIF manifest, e.g., a photograph with its digital manifest."@en ;
+  owl:inverseOf :documents .
+
+:documents a owl:ObjectProperty ;
+  rdfs:domain :IIIFManifest ;
+  rdfs:range :Document ;
+  rdfs:label "documents"@en, "مستند می‌کند"@fa ;
+  rdfs:comment "Associates an IIIF manifest with its document."@en .
+
+:containsCanvas a owl:ObjectProperty ;
+  rdfs:domain :IIIFManifest ;
+  rdfs:range :Canvas ;
+  rdfs:label "contains canvas"@en, "شامل بوم"@fa ;
+  rdfs:comment "Associates an IIIF manifest with its canvases, e.g., a manifest with its visual pages."@en ;
+  owl:inverseOf :isContainedInCanvas .
+
+:isContainedInCanvas a owl:ObjectProperty ;
+  rdfs:domain :Canvas ;
+  rdfs:range :IIIFManifest ;
+  rdfs:label "is contained in canvas"@en, "موجود در بوم"@fa ;
+  rdfs:comment "Associates a canvas with its containing IIIF manifest."@en .
+
+:hasTopic a owl:ObjectProperty ;
+  rdfs:domain :Document ;
+  rdfs:range crm:E55_Type ;
+  rdfs:label "has topic"@en, "دارای موضوع"@fa ;
+  rdfs:comment "Associates a document with its subject matter, e.g., TGM or AAT topics like inscriptions."@en ;
+  rdfs:subPropertyOf crm:P129_is_about ;
+  owl:inverseOf :isTopicOf .
+
+:isTopicOf a owl:ObjectProperty ;
+  rdfs:domain crm:E55_Type ;
+  rdfs:range :Document ;
+  rdfs:label "is topic of"@en, "موضوع است از"@fa ;
+  rdfs:comment "Associates a subject with documents about it, e.g., inscriptions with related photographs."@en ;
+  rdfs:subPropertyOf crm:P129i_is_subject_of .
+
+:identifiedBy a owl:ObjectProperty ;
+  rdfs:domain [ a owl:Class ; owl:unionOf (:Monument :Inscription :Document :IIIFManifest :Canvas :Text :Event :Actor :Place) ] ;
+  rdfs:range crm:E41_Appellation ;
+  rdfs:label "identified by"@en, "شناسایی شده توسط"@fa ;
+  rdfs:comment "Associates an entity with its name or identifier, e.g., a monument with its name."@en ;
+  rdfs:subPropertyOf crm:P1_is_identified_by ;
+  owl:inverseOf :identifies .
+
+:identifies a owl:ObjectProperty ;
+  rdfs:domain crm:E41_Appellation ;
+  rdfs:range [ a owl:Class ; owl:unionOf (:Monument :Inscription :Document :IIIFManifest :Canvas :Text :Event :Actor :Place) ] ;
+  rdfs:label "identifies"@en, "شناسایی می‌کند"@fa ;
+  rdfs:comment "Associates a name or identifier with its entity."@en ;
+  rdfs:subPropertyOf crm:P1i_identifies .
+
+:hasLocation a owl:ObjectProperty ;
+  rdfs:domain [ a owl:Class ; owl:unionOf (:Monument :Event) ] ;
+  rdfs:range :Place ;
+  rdfs:label "has location"@en, "دارای مکان"@fa ;
+  rdfs:comment "Associates a monument or event with its geographical location, e.g., a mosque in Isfahan."@en ;
+  rdfs:subPropertyOf crm:P7_took_place_at ;
+  owl:inverseOf :isLocationOf .
+
+:isLocationOf a owl:ObjectProperty ;
+  rdfs:domain :Place ;
+  rdfs:range [ a owl:Class ; owl:unionOf (:Monument :Event) ] ;
+  rdfs:label "is location of"@en, "مکان است از"@fa ;
+  rdfs:comment "Associates a location with monuments or events situated there."@en ;
+  rdfs:subPropertyOf crm:P7i_had_place .
+
+:hasPatron a owl:ObjectProperty ;
+  rdfs:domain :Event ;
+  rdfs:range :Actor ;
+  rdfs:label "has patron"@en, "دارای حامی"@fa ;
+  rdfs:comment "Associates an event with its patron, e.g., a construction event with Nizam al-Mulk."@en ;
+  rdfs:subPropertyOf crm:P14_carried_out_by ;
+  owl:inverseOf :isPatronOf .
+
+:isPatronOf a owl:ObjectProperty ;
+  rdfs:domain :Actor ;
+  rdfs:range :Event ;
+  rdfs:label "is patron of"@en, "حامی است از"@fa ;
+  rdfs:comment "Associates a patron with events they supported."@en ;
+  rdfs:subPropertyOf crm:P14i_performed .
+
+# Custom Object Properties without Inverses
+:hasStyle a owl:ObjectProperty ;
+  rdfs:domain :Inscription ;
+  rdfs:range crm:E55_Type ;
+  rdfs:label "has style"@en, "دارای سبک"@fa ;
+  rdfs:comment "Associates an inscription with its script style, e.g., Kufic or Nastaʿliq."@en ;
+  rdfs:subPropertyOf crm:P2_has_type .
+
+:hasContentType a owl:ObjectProperty ;
+  rdfs:domain :Text ;
+  rdfs:range crm:E55_Type ;
+  rdfs:label "has content type"@en, "دارای نوع محتوا"@fa ;
+  rdfs:comment "Associates a text with its content type, e.g., sacred texts or dedicatory inscriptions."@en ;
+  rdfs:subPropertyOf crm:P2_has_type .
+
+:hasViewType a owl:ObjectProperty ;
+  rdfs:domain :Document ;
+  rdfs:range crm:E55_Type ;
+  rdfs:label "has view type"@en, "دارای نوع نما"@fa ;
+  rdfs:comment "Associates a document with its view type, e.g., interior or exterior views."@en ;
+  rdfs:subPropertyOf crm:P2_has_type .
+
+:hasMediaType a owl:ObjectProperty ;
+  rdfs:domain :Canvas ;
+  rdfs:range crm:E55_Type ;
+  rdfs:label "has media type"@en, "دارای نوع رسانه"@fa ;
+  rdfs:comment "Associates a canvas with its media type, e.g., photographs or engravings."@en ;
+  rdfs:subPropertyOf crm:P2_has_type .
+
+:hasLanguage a owl:ObjectProperty ;
+  rdfs:domain :Text ;
+  rdfs:range crm:E56_Language ;
+  rdfs:label "has language"@en, "دارای زبان"@fa ;
+  rdfs:comment "Associates a text with its language, e.g., Arabic or Persian."@en ;
+  rdfs:subPropertyOf crm:P72_has_language .
+
+:hasMaterial a owl:ObjectProperty ;
+  rdfs:domain [ a owl:Class ; owl:unionOf (:Monument :Inscription) ] ;
+  rdfs:range crm:E55_Type ;
+  rdfs:label "has material"@en, "دارای ماده"@fa ;
+  rdfs:comment "Associates a monument or inscription with its material, e.g., tile or stone."@en ;
+  rdfs:subPropertyOf crm:P2_has_type .
+
+:hasArchitecturalStyle a owl:ObjectProperty ;
+  rdfs:domain :Monument ;
+  rdfs:range crm:E55_Type ;
+  rdfs:label "has architectural style"@en, "دارای سبک معماری"@fa ;
+  rdfs:comment "Associates a monument with its architectural style, e.g., Seljuq or Safavid."@en ;
+  rdfs:subPropertyOf crm:P2_has_type .
+
+:hasCreationDate a owl:ObjectProperty ;
+  rdfs:domain :Document ;
+  rdfs:range crm:E52_Time-Span ;
+  rdfs:label "has creation date"@en, "دارای تاریخ ایجاد"@fa ;
+  rdfs:comment "Associates a document with its creation date or period."@en ;
+  rdfs:subPropertyOf crm:P4_has_time_span .
+
+:hasTimeSpan a owl:ObjectProperty ;
+  rdfs:domain :Event ;
+  rdfs:range crm:E52_Time-Span ;
+  rdfs:label "has time span"@en, "دارای بازه زمانی"@fa ;
+  rdfs:comment "Associates an event with its temporal duration, e.g., construction period."@en ;
+  rdfs:subPropertyOf crm:P4_has_time_span .
+
+# Custom Datatype Properties
+:hasNote a owl:DatatypeProperty ;
+  rdfs:domain [ a owl:Class ; owl:unionOf (:Monument :Inscription :Text :Document :IIIFManifest :Canvas :Event :Actor :Place) ] ;
+  rdfs:range xsd:string ;
+  rdfs:label "has note"@en, "دارای یادداشت"@fa ;
+  rdfs:comment "Associates an entity with a textual note, e.g., inscription content or document description."@en ;
+  rdfs:subPropertyOf crm:P3_has_note .
+
+:hasDescription a owl:DatatypeProperty ;
+  rdfs:domain [ a owl:Class ; owl:unionOf (:Monument :Inscription :Document) ] ;
+  rdfs:range xsd:string ;
+  rdfs:label "has description"@en, "دارای توضیح"@fa ;
+  rdfs:comment "Provides a detailed description of a monument, inscription, or document."@en ;
+  rdfs:subPropertyOf crm:P3_has_note .

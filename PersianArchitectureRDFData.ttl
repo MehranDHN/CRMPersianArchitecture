@@ -1,0 +1,591 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <http://example.org/persian-architecture-ontology#> .
+@prefix mdhn: <http://example.com/mdhn/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix tgm: <http://id.loc.gov/vocabulary/tgm/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+# Jameh Mosque
+:Jameh_Mosque a :Monument ;
+  :identifiedBy "Jameh Mosque of Isfahan"@en, "مسجد جامع اصفهان"@fa ;
+  :hasType <http://www.wikidata.org/entity/Q32815> ; # Mosque
+  :isComposedOf :Uljaytu_Mihrab, :New_Mihrab, :Jameh_Courtyard, :South_West_Ivan, :South_East_Ivan, :North_West_Ivan, :North_East_Ivan, :Nizam_al_Mulk_Dome, :Taj_al_Mulk_Dome ;
+  crm:P7_took_place_at <http://vocab.getty.edu/tgn/7022001> ; # Isfahan
+  :hasDescription :Jameh_Mosque_Description ;
+  :broughtIntoExistence :Jameh_Mosque_Construction .
+
+:Jameh_Mosque_Construction a crm:E12_Production ;
+  :hasTimeSpan :Jameh_Mosque_TimeSpan ;
+  :broughtIntoExistence :Jameh_Mosque .
+
+:Jameh_Mosque_TimeSpan a crm:E52_Time-Span ;
+  :hasDate "481 AH / 1088 AD"@en .
+
+:Jameh_Mosque_Description a crm:E33_Linguistic_Object ;
+  :hasNote "The Jameh Mosque of Isfahan, a UNESCO site, features two mihrabs, four Ivans, and intricate inscriptions."@en ;
+  rdfs:seeAlso <https://whc.unesco.org/en/list/1397> ; # Masjed-e Jāmé of Isfahan
+  :hasLanguage <http://www.wikidata.org/entity/Q1860> . # English
+
+# Parts
+:Uljaytu_Mihrab a :Monument ;
+  :identifiedBy "Uljaytu's Mihrab"@en, "محراب اولجايتو"@fa ;
+  :hasType <http://vocab.getty.edu/aat/300006148> ; # Mihrab
+  :isComposedOf :Uljaytu_Mihrab_Rectangular_Inscriptions .
+
+:Uljaytu_Mihrab_TimeSpan a crm:E52_Time-Span ;
+  :hasDate "710 AH / 1310 AD"@en .  
+
+:Uljaytu_Mihrab_Construction a crm:E12_Production ;
+  :hasTimeSpan :Uljaytu_Mihrab_TimeSpan ;
+  :broughtIntoExistence :Uljaytu_Mihrab .  
+
+:New_Mihrab a :Monument ;
+  :identifiedBy "New Mihrab of Jameh Mosque"@en, "محراب جدید مسجد جامع"@fa ;
+  :hasType <http://vocab.getty.edu/aat/300006148> ; # Mihrab
+  :isComposedOf :New_Mihrab_Inscription_001 ;
+  :broughtIntoExistence :New_Mihrab_Construction .
+
+:New_Mihrab_Construction a crm:E12_Production ;
+  :hasTimeSpan :New_Mihrab_TimeSpan ;
+  :broughtIntoExistence :New_Mihrab .
+
+:New_Mihrab_TimeSpan a crm:E52_Time-Span ;
+  :hasDate "circa 1500 AD"@en .
+
+:Jameh_Courtyard a :Monument ;
+  :identifiedBy "Courtyard of Jameh Mosque"@en, "حیاط مسجد جامع"@fa ;
+  :hasType <http://vocab.getty.edu/aat/300004095> . # Courtyard
+
+
+:North_West_Ivan a :Monument ;
+  :identifiedBy "North West Ivan of Jameh Mosque"@en, "ایوان شمال غربی مسجد جامع"@fa ;
+  :hasType <http://vocab.getty.edu/aat/300077524> ; # Ivan
+  :hasMaterial <http://vocab.getty.edu/aat/300010463> . # Brick  
+
+:North_East_Ivan a :Monument ;
+  :identifiedBy "North East Ivan of Jameh Mosque"@en, "ایوان شمال شرقی مسجد جامع"@fa ;
+  :hasType <http://vocab.getty.edu/aat/300077524> ; # Ivan
+  :hasMaterial <http://vocab.getty.edu/aat/300010463> . # Brick    
+  
+:South_West_Ivan a :Monument ;
+  :identifiedBy "South West Ivan of Jameh Mosque"@en, "ایوان جنوب غربی مسجد جامع"@fa ;
+  crm:P1_is_identified_by :South_West_Ivan_AltName ;
+  :hasType <http://vocab.getty.edu/aat/300077524> ; # Ivan
+  :hasMaterial <http://vocab.getty.edu/aat/300010463> ; # Brick
+  :isComposedOf :South_West_Ivan_Inscription_001, :Start_Vault.
+
+:South_East_Ivan a :Monument ;
+  :identifiedBy "South East Ivan of Jameh Mosque"@en, "ایوان جنوب شرقی مسجد جامع"@fa ;
+  :hasType <http://vocab.getty.edu/aat/300077524> ; # Ivan
+  :hasMaterial <http://vocab.getty.edu/aat/300010463> . # Brick     
+
+:South_West_Ivan_AltName a crm:E41_Appellation ;
+  crm:P1_is_identified_by "Soffe Saheb"@en, "صفه صاحب"@fa .  
+
+:Nizam_al_Mulk_Dome a :Monument ;
+  :identifiedBy "Nizam al-Mulk Dome"@en, "گنبد نظام الملک"@fa ;
+  :hasType <http://vocab.getty.edu/aat/300001928> ; # Dome
+  :isComposedOf :Nizam_al_Mulk_Dome_Inscription_001 ;
+  :broughtIntoExistence :Nizam_al_Mulk_Dome_Construction .
+
+:Start_Vault a :Monument ;
+  :identifiedBy "Star Vault"@en, "طاق ستاره ای"@fa ;
+  :hasType <http://vocab.getty.edu/aat/300001928> ; # Dome
+  :hasMaterial <http://vocab.getty.edu/aat/300010463> ; # Brick
+  :broughtIntoExistence :Nizam_al_Mulk_Dome_Construction .  
+
+:Nizam_al_Mulk_Dome_Construction a crm:E12_Production ;
+  :hasTimeSpan :Nizam_al_Mulk_Dome_TimeSpan ;
+  :carriedOutBy <http://www.wikidata.org/entity/Q298427> ; # Nizam al-Mulk
+  :broughtIntoExistence :Nizam_al_Mulk_Dome .
+
+:Nizam_al_Mulk_Dome_TimeSpan a crm:E52_Time-Span ;
+  :hasDate "circa 1088 AD"@en .
+
+:Taj_al_Mulk_Dome a :Monument ;
+  :identifiedBy "Taj al-Mulk Dome"@en, "گنبد تاج الملک"@fa ;
+  crm:P1_is_identified_by :Taj_al_Mulk_Dome_AltName ;
+  :hasType <http://vocab.getty.edu/aat/300001928> ; # Dome
+  :isComposedOf :Taj_al_Mulk_Dome_Inscription_001 ;
+  :broughtIntoExistence :Taj_al_Mulk_Dome_Construction .
+
+:Taj_al_Mulk_Dome_AltName a crm:E41_Appellation ;
+  crm:P1_is_identified_by "Saljuq Dome"@en, "گنبد سلجوقی"@fa .
+
+:Taj_al_Mulk_Dome_Construction a crm:E12_Production ;
+  :hasTimeSpan :Taj_al_Mulk_Dome_TimeSpan ;
+  :carriedOutBy <http://www.wikidata.org/entity/Q28870762> ; # Taj al-Mulk
+  :broughtIntoExistence :Taj_al_Mulk_Dome .
+
+:Taj_al_Mulk_Dome_TimeSpan a crm:E52_Time-Span ;
+  :hasDate "481 AH / 1088 AD"@en .
+
+# Inscriptions
+:South_West_Ivan_Inscription_001 a crm:E34_Inscription ;
+  :identifiedBy "South Ivan Quranic Inscription"@en, "کتیبه قرآنی ایوان جنوبی"@fa ;
+  :hasStyle <http://vocab.getty.edu/aat/300343697> ; # Kufic
+  :hasLocationDetail "on the Ivan arch"@en ;
+  :broughtIntoExistence :South_West_Ivan_Inscription_Construction ;
+  :incorporates :South_West_Ivan_Inscription_Text .
+
+:South_West_Ivan_Inscription_Construction a crm:E12_Production ;
+  :hasTimeSpan :South_West_Ivan_Inscription_TimeSpan  .
+
+:South_West_Ivan_Inscription_TimeSpan a crm:E52_Time-Span ;
+  :hasDate "circa 1088 AD"@en .
+
+:South_West_Ivan_Inscription_Text a crm:E33_Linguistic_Object ;
+  :hasNote "Quranic verse, Surah Al-Ikhlas (112:1-4), in Arabic: 'Say, He is Allah, the One...'"@en, "قُلْ هُوَ ٱللَّهُ أَحَدٌ"@ar ;
+  :hasContentType <http://vocab.getty.edu/aat/300073688> ; # Quranic
+  :hasLanguage <http://www.wikidata.org/entity/Q13955> . # Arabic
+
+:Uljaytu_Mihrab_Rectangular_Inscriptions a crm:E34_Inscription ;
+  :identifiedBy "Old Mihrab Quranic Inscription"@en, "کتیبه‌های کوفی معقلی بر کادر مربع گچی"@fa ;
+  :hasStyle <http://vocab.getty.edu/aat/300343697> ; # Kufic
+  :hasLocationDetail "above the mihrab, rectangular plaster frame"@en ;
+  :broughtIntoExistence :Uljaytu_Mihrab_Rectangular_Inscription_Construction ;
+  :incorporates :Uljaytu_Mihrab_Rectangular_Inscription1_Text, :Uljaytu_Mihrab_Rectangular_Inscription2_Text, :Uljaytu_Mihrab_Rectangular_Inscription3_Text .
+
+:Uljaytu_Mihrab_Rectangular_Inscription_Construction a crm:E12_Production ;
+  :hasTimeSpan :Uljaytu_Mihrab_Rectangular_Inscriptions_TimeSpan ;
+  :broughtIntoExistence :Uljaytu_Mihrab_Rectangular_Inscriptions .
+
+:Uljaytu_Mihrab_Rectangular_Inscriptions_TimeSpan a crm:E52_Time-Span ;
+  :hasDate "circa 1100 AD"@en .
+
+:Uljaytu_Mihrab_Rectangular_Inscription1_Text a crm:E33_Linguistic_Object ;
+  :hasNote "Quranic verse, Surah Al-Ikhlas (112:1-4), in Arabic: 'Say, He is Allah, the One...'"@en, "قُلۡ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ"@ar ;
+  :hasContentType <http://vocab.getty.edu/aat/300073688> ; # Quranic
+  :hasLanguage <http://www.wikidata.org/entity/Q13955> .
+
+:Uljaytu_Mihrab_Rectangular_Inscription2_Text a crm:E33_Linguistic_Object ;
+  :hasNote "Quranic verse, Surah Al-Inshirah (94:1-8), in Arabic: 'Have We not opened your breast for you...'"@en, "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ وَوَضَعْنَا عَنكَ وِزْرَكَ..."@ar ;
+  :hasContentType <http://vocab.getty.edu/aat/300073688> ;
+  :hasLanguage <http://www.wikidata.org/entity/Q13955> .
+
+:Uljaytu_Mihrab_Rectangular_Inscription3_Text a crm:E33_Linguistic_Object ;
+  :hasNote "Quranic verse, Surah Al-Insan (76:1-2), in Arabic: 'Has there not been over man a period of time...'"@en, "هَلْ أَتَىٰ عَلَى ٱلْإِنسَـٰنِ حِينٌۭ مِّنَ ٱلدَّهْرِ..."@ar ;
+  :hasContentType <http://vocab.getty.edu/aat/300073688> ;
+  :hasLanguage <http://www.wikidata.org/entity/Q13955> .
+
+:Nizam_al_Mulk_Dome_Inscription_001 a crm:E34_Inscription ;
+  :identifiedBy "Kufic Inscription below Nizam al-Mulk Dome"@en, "کتیبه کوفی زیر گنبد نظام الملک"@fa ;
+  :hasStyle <http://vocab.getty.edu/aat/300343697> ; # Kufic
+  :hasLocationDetail "below the dome"@en ;
+  :broughtIntoExistence :Nizam_al_Mulk_Dome_Inscription_Construction ;
+  :incorporates :Nizam_al_Mulk_Dome_Inscription_Text .
+
+:Nizam_al_Mulk_Dome_Inscription_Construction a crm:E12_Production ;
+  :hasTimeSpan :Nizam_al_Mulk_Dome_Inscription_TimeSpan ;
+  :broughtIntoExistence :Nizam_al_Mulk_Dome_Inscription_001 .
+
+:Nizam_al_Mulk_Dome_Inscription_TimeSpan a crm:E52_Time-Span ;
+  :hasDate "circa 1088 AD"@en .
+
+:Nizam_al_Mulk_Dome_Inscription_Text a crm:E33_Linguistic_Object ;
+  :hasNote "Quranic verse, Surah Al-Fatiha (1:1-7), in Arabic: 'In the name of Allah...'"@en, "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ..."@ar ;
+  :hasContentType <http://vocab.getty.edu/aat/300073688> ;
+  :hasLanguage <http://www.wikidata.org/entity/Q13955> .
+
+:Taj_al_Mulk_Dome_Inscription_001 a crm:E34_Inscription ;
+  :identifiedBy "Kufic Inscription below Taj al-Mulk Dome"@en, "کتیبه کوفی زیر گنبد تاج الملک"@fa ;
+  :hasStyle <http://vocab.getty.edu/aat/300343697> ; # Kufic
+  :hasLocationDetail "below the dome"@en ;
+  :broughtIntoExistence :Taj_al_Mulk_Dome_Inscription_Construction ;
+  :incorporates :Taj_al_Mulk_Dome_Inscription_Text .
+
+:Taj_al_Mulk_Dome_Inscription_Construction a crm:E12_Production ;
+  :hasTimeSpan :Taj_al_Mulk_Dome_Inscription_TimeSpan ;
+  :broughtIntoExistence :Taj_al_Mulk_Dome_Inscription_001 .
+
+:Taj_al_Mulk_Dome_Inscription_TimeSpan a crm:E52_Time-Span ;
+  :hasDate "481 AH / 1088 AD"@en .
+
+:Taj_al_Mulk_Dome_Inscription_Text a crm:E33_Linguistic_Object ;
+  :hasNote "Quranic verse, Surah Al-Ikhlas (112:1-4), in Arabic: 'Say, He is Allah, the One...'"@en, "قُلْ هُوَ ٱللَّهُ أَحَدٌ..."@ar ;
+  :hasContentType <http://vocab.getty.edu/aat/300073688> ;
+  :hasLanguage <http://www.wikidata.org/entity/Q13955> .
+
+:New_Mihrab_Inscription_001 a crm:E34_Inscription ;
+  :identifiedBy "Nastaʿliq Inscription on New Mihrab"@en, "کتیبه نستعلیق محراب جدید"@fa ;
+  :hasStyle <http://vocab.getty.edu/aat/300201702> ; # Nastaʿliq
+  :hasLocationDetail "on the mihrab arch"@en ;
+  :broughtIntoExistence :New_Mihrab_Inscription_Construction ;
+  :incorporates :New_Mihrab_Inscription_Text .
+
+:New_Mihrab_Inscription_Construction a crm:E12_Production ;
+  :hasTimeSpan :New_Mihrab_Inscription_TimeSpan ;
+  :broughtIntoExistence :New_Mihrab_Inscription_001 .
+
+:New_Mihrab_Inscription_TimeSpan a crm:E52_Time-Span ;
+  :hasDate "circa 1500 AD"@en .
+
+:New_Mihrab_Inscription_Text a crm:E33_Linguistic_Object ;
+  :hasNote "Quranic verse, Ayat al-Kursi (2:255), in Arabic: 'Allah! There is no deity except Him...'"@en, "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ..."@ar ;
+  :hasContentType <http://vocab.getty.edu/aat/300073688> ;
+  :hasLanguage <http://www.wikidata.org/entity/Q13955> .
+
+# Documents
+:Jameh_Document_001 a :Document ;
+  :identifiedBy "Photograph of New Mihrab, 1900"@en, "عکس محراب جدید، 1900"@fa ;
+  :refersTo :New_Mihrab ;
+  :isDocumentedIn :Jameh_Manifest_001 ;
+  :hasTopic <http://vocab.getty.edu/aat/300006148> ; # Mihrab
+  :hasViewType <http://vocab.getty.edu/aat/300081102> ; # Interior
+  :hasDescription :Jameh_Document_001_Description .
+
+:Jameh_Manifest_001 a :IIIFManifest ;
+  crm:P1_is_identified_by "https://iiif.archivelab.org/iiif/jameh_new_mihrab_1900/manifest.json"^^xsd:anyURI ;
+  :hasVersion "3.0"^^xsd:string ;
+  :containsCanvas :Jameh_Canvas_001 .
+
+:Jameh_Canvas_001 a :Canvas ;
+  :identifiedBy "New Mihrab Canvas"@en ;
+  :hasMediaType <http://vocab.getty.edu/aat/300033618> . # Photograph
+
+:Jameh_Document_001_Description a crm:E33_Linguistic_Object ;
+  :hasNote "This 1900 photograph captures the New Mihrab with Nastaʿliq inscriptions."@en ;
+  :hasLanguage <http://www.wikidata.org/entity/Q1860> .
+
+:Jameh_Document_003 a :Document ;
+  :identifiedBy "Engraving of South Ivan, 1850"@en, "نگاره ایوان جنوبی، 1850"@fa ;
+  :refersTo :South_West_Ivan ;
+  :isDocumentedIn :Jameh_Manifest_003 ;
+  :hasTopic <http://vocab.getty.edu/aat/300077524> ; # Ivan
+  :hasViewType <http://vocab.getty.edu/aat/300081103> ; # Exterior
+  :hasDescription :Jameh_Document_003_Description .
+
+:Jameh_Manifest_003 a :IIIFManifest ;
+  crm:P1_is_identified_by "https://iiif.archivelab.org/iiif/jameh_South_West_Ivan_1850/manifest.json"^^xsd:anyURI ;
+  :hasVersion "3.0"^^xsd:string ;
+  :containsCanvas :Jameh_Canvas_003 .
+
+:Jameh_Canvas_003 a :Canvas ;
+  :identifiedBy "South Ivan Engraving Canvas"@en ;
+  :hasMediaType <http://vocab.getty.edu/aat/300015637> . # Engraving
+
+:Jameh_Document_003_Description a crm:E33_Linguistic_Object ;
+  :hasNote "This 1850 engraving depicts the South Ivan’s exterior architecture."@en ;
+  :hasLanguage <http://www.wikidata.org/entity/Q1860> .
+
+:Jameh_Document_005 a :Document ;
+  :identifiedBy "Photograph of Taj al-Mulk Dome Interior, 1920"@en, "عکس داخل گنبد تاج الملک، 1920"@fa ;
+  :refersTo :Taj_al_Mulk_Dome ;
+  :isDocumentedIn :Jameh_Manifest_005 ;
+  :hasTopic <http://id.loc.gov/authorities/subjects/sh85038924>, <http://vocab.getty.edu/aat/300001928> ; # Dome
+  :hasViewType <http://vocab.getty.edu/aat/300081102> ; # Interior
+  :hasDescription :Jameh_Document_005_Description .
+
+:Jameh_Manifest_005 a :IIIFManifest ;
+  crm:P1_is_identified_by "https://iiif.archivelab.org/iiif/jameh_taj_interior_1920/manifest.json"^^xsd:anyURI ;
+  :hasVersion "3.0"^^xsd:string ;
+  :containsCanvas :Jameh_Canvas_005 .
+
+:Jameh_Canvas_005 a :Canvas ;
+  :identifiedBy "Taj al-Mulk Dome Interior Canvas"@en ;
+  :hasMediaType <http://vocab.getty.edu/aat/300033618> .
+
+:Jameh_Document_005_Description a crm:E33_Linguistic_Object ;
+  :hasNote "This 1920 photograph captures the intricate interior of the Taj al-Mulk Dome, showcasing its Saljuq-era geometric tilework."@en ;
+  :hasLanguage <http://www.wikidata.org/entity/Q1860> .
+
+:Jameh_Document_006 a :Document ;
+  :identifiedBy "Photograph of Nizam al-Mulk Dome Exterior, 1930"@en, "عکس خارج گنبد نظام الملک، 1930"@fa ;
+  :refersTo :Nizam_al_Mulk_Dome ;
+  :isDocumentedIn :Jameh_Manifest_006 ;
+  :hasTopic <http://id.loc.gov/authorities/subjects/sh85038924>, <http://vocab.getty.edu/aat/300001928> ;
+  :hasViewType <http://vocab.getty.edu/aat/300081103> ; # Exterior
+  :hasDescription :Jameh_Document_006_Description .
+
+:Jameh_Manifest_006 a :IIIFManifest ;
+  crm:P1_is_identified_by "https://iiif.archivelab.org/iiif/jameh_nizam_exterior_1930/manifest.json"^^xsd:anyURI ;
+  :hasVersion "3.0"^^xsd:string ;
+  :containsCanvas :Jameh_Canvas_006 .
+
+:Jameh_Canvas_006 a :Canvas ;
+  :identifiedBy "Nizam al-Mulk Dome Exterior Canvas"@en ;
+  :hasMediaType <http://vocab.getty.edu/aat/300033618> .
+
+:Jameh_Document_006_Description a crm:E33_Linguistic_Object ;
+  :hasNote "This 1930 photograph shows the exterior of the Nizam al-Mulk Dome, highlighting its Saljuq brickwork."@en ;
+  :hasLanguage <http://www.wikidata.org/entity/Q1860> .
+
+:Jameh_Document_007 a :Document ;
+  :identifiedBy "Photograph of South Ivan Inscription, 1925"@en, "عکس کتیبه ایوان جنوبی، 1925"@fa ;
+  :refersTo :South_West_Ivan_Inscription_001 ;
+  :isDocumentedIn :Jameh_Manifest_007 ;
+  :hasTopic <http://id.loc.gov/authorities/subjects/sh85066530>, <http://vocab.getty.edu/aat/300028707>, <http://vocab.getty.edu/aat/300343697> ;
+  :hasViewType <http://vocab.getty.edu/aat/300081102> ;
+  :hasDescription :Jameh_Document_007_Description .
+
+:Jameh_Manifest_007 a :IIIFManifest ;
+  crm:P1_is_identified_by "https://iiif.archivelab.org/iiif/jameh_inscription_1925/manifest.json"^^xsd:anyURI ;
+  :hasVersion "3.0"^^xsd:string ;
+  :containsCanvas :Jameh_Canvas_007 .
+
+:Jameh_Canvas_007 a :Canvas ;
+  :identifiedBy "South Ivan Inscription Canvas"@en, "کتیبه ایوان جنوبی"@fa ;
+  :hasMediaType <http://vocab.getty.edu/aat/300033618> .
+
+:Jameh_Document_007_Description a crm:E33_Linguistic_Object ;
+  :hasNote "This 1925 photograph captures a Kufic inscription on the South Ivan, featuring Surah Al-Ikhlas."@en ;
+  :hasLanguage <http://www.wikidata.org/entity/Q1860> .
+
+:Jameh_Document_008 a :Document ;
+  :identifiedBy "Photograph of Nizam al-Mulk Dome Inscription, 1935"@en, "عکس کتیبه گنبد نظام الملک، 1935"@fa ;
+  :refersTo :Nizam_al_Mulk_Dome_Inscription_001 ;
+  :isDocumentedIn :Jameh_Manifest_008 ;
+  :hasTopic <http://id.loc.gov/authorities/subjects/sh85066530>, <http://vocab.getty.edu/aat/300028707>, <http://vocab.getty.edu/aat/300343697> ;
+  :hasViewType <http://vocab.getty.edu/aat/300081102> ;
+  :hasDescription :Jameh_Document_008_Description .
+
+:Jameh_Manifest_008 a :IIIFManifest ;
+  crm:P1_is_identified_by "https://iiif.archivelab.org/iiif/jameh_nizam_inscription_1935/manifest.json"^^xsd:anyURI ;
+  :hasVersion "3.0"^^xsd:string ;
+  :containsCanvas :Jameh_Canvas_008 .
+
+:Jameh_Canvas_008 a :Canvas ;
+  :identifiedBy "Nizam al-Mulk Dome Inscription Canvas"@en ;
+  :hasMediaType <http://vocab.getty.edu/aat/300033618> .
+
+:Jameh_Document_008_Description a crm:E33_Linguistic_Object ;
+  :hasNote "This 1935 photograph captures a Kufic inscription below the Nizam al-Mulk Dome, featuring Surah Al-Fatiha."@en ;
+  :hasLanguage <http://www.wikidata.org/entity/Q1860> .
+
+:Jameh_Document_009 a :Document ;
+  :identifiedBy "Photograph of Taj al-Mulk Dome Inscription, 1920"@en, "عکس کتیبه گنبد تاج الملک، 1920"@fa ;
+  :refersTo :Taj_al_Mulk_Dome_Inscription_001 ;
+  :isDocumentedIn :Jameh_Manifest_009 ;
+  :hasTopic <http://id.loc.gov/authorities/subjects/sh85066530>, <http://vocab.getty.edu/aat/300028707>, <http://vocab.getty.edu/aat/300343697> ;
+  :hasViewType <http://vocab.getty.edu/aat/300081102> ;
+  :hasDescription :Jameh_Document_009_Description .
+
+:Jameh_Manifest_009 a :IIIFManifest ;
+  crm:P1_is_identified_by "https://iiif.archivelab.org/iiif/jameh_taj_inscription_1920/manifest.json"^^xsd:anyURI ;
+  :hasVersion "3.0"^^xsd:string ;
+  :containsCanvas :Jameh_Canvas_009 .
+
+:Jameh_Canvas_009 a :Canvas ;
+  :identifiedBy "Taj al-Mulk Dome Inscription Canvas"@en ;
+  :hasMediaType <http://vocab.getty.edu/aat/300033618> .
+
+:Jameh_Document_009_Description a crm:E33_Linguistic_Object ;
+  :hasNote "This 1920 photograph shows a Kufic inscription below the Taj al-Mulk Dome, with Surah Al-Ikhlas."@en ;
+  :hasLanguage <http://www.wikidata.org/entity/Q1860> .
+
+:Jameh_Document_010 a :Document ;
+  :identifiedBy "Photograph of Old Mihrab Kufic Inscriptions, 1940"@en, "عکس کتیبه‌های کوفی محراب قدیم، 1940"@fa ;
+  :refersTo :Uljaytu_Mihrab_Rectangular_Inscriptions ;
+  :isDocumentedIn :Jameh_Manifest_010 ;
+  :hasTopic <http://id.loc.gov/authorities/subjects/sh85066530>, <http://vocab.getty.edu/aat/300028707>, <http://vocab.getty.edu/aat/300343697> ; # Kufic
+  :hasViewType <http://vocab.getty.edu/aat/300081102> ;
+  :hasDescription :Jameh_Document_010_Description .
+
+:Jameh_Manifest_010 a :IIIFManifest ;
+  crm:P1_is_identified_by "https://iiif.archivelab.org/iiif/jameh_mihrab_inscriptions_1940/manifest.json"^^xsd:anyURI ;
+  :hasVersion "3.0"^^xsd:string ;
+  :containsCanvas :Jameh_Canvas_010 .
+
+:Jameh_Canvas_010 a :Canvas ;
+  :identifiedBy "Old Mihrab Kufic Inscriptions Canvas"@en ;
+  :hasMediaType <http://vocab.getty.edu/aat/300033618> .
+
+:Jameh_Document_010_Description a crm:E33_Linguistic_Object ;
+  :hasNote "This 1940 photograph captures Kufic Muqali inscriptions on a rectangular plaster frame above the Old Mihrab, featuring Surahs Al-Ikhlas, Al-Inshirah, and Al-Insan."@en ;
+  :hasLanguage <http://www.wikidata.org/entity/Q1860> .
+
+:Jameh_Document_011 a :Document ;
+  :identifiedBy "Photograph of New Mihrab Nastaʿliq Inscription, 1950"@en, "عکس کتیبه نستعلیق محراب جدید، 1950"@fa ;
+  :refersTo :New_Mihrab_Inscription_001 ;
+  :isDocumentedIn :Jameh_Manifest_011 ;
+  :hasTopic <http://id.loc.gov/authorities/subjects/sh85066530>, <http://vocab.getty.edu/aat/300028707>, <http://vocab.getty.edu/aat/300201702> ; # Nastaʿliq
+  :hasViewType <http://vocab.getty.edu/aat/300081102> ;
+  :hasDescription :Jameh_Document_011_Description .
+
+:Jameh_Manifest_011 a :IIIFManifest ;
+  crm:P1_is_identified_by "https://iiif.archivelab.org/iiif/jameh_new_mihrab_inscription_1950/manifest.json"^^xsd:anyURI ;
+  :hasVersion "3.0"^^xsd:string ;
+  :containsCanvas :Jameh_Canvas_011 .
+
+:Jameh_Canvas_011 a :Canvas ;
+  :identifiedBy "New Mihrab Nastaʿliq Inscription Canvas"@en ;
+  :hasMediaType <http://vocab.getty.edu/aat/300033618> .
+
+:Jameh_Document_011_Description a crm:E33_Linguistic_Object ;
+  :hasNote "This 1950 photograph shows a Nastaʿliq inscription on the New Mihrab, featuring Ayat al-Kursi."@en ;
+  :hasLanguage <http://www.wikidata.org/entity/Q1860> .
+
+
+
+# AAT Terms
+aat:300001928 a crm:E55_Type ;
+  rdfs:label "Dome (architectural element)"@en ;
+  skos:broader aat:300002191 ; # Roof components
+  rdfs:comment "A curved, vaulted roof structure, e.g., Taj al-Mulk Dome."@en .
+
+aat:300002191 a crm:E55_Type ;
+  rdfs:label "Roof components"@en ;
+  skos:broader aat:300002146 ; # Roofs
+  rdfs:comment "Components of roofing systems, including domes."@en .
+
+aat:300004095 a crm:E55_Type ;
+  rdfs:label "Courtyard (complex)"@en ;
+  skos:broader aat:300004091 ; # Open spaces
+  rdfs:comment "An open area surrounded by buildings, e.g., Jameh Mosque courtyard."@en .
+
+aat:300004091 a crm:E55_Type ;
+  rdfs:label "Open spaces"@en ;
+  skos:broader aat:300000666 ; # Site elements
+  rdfs:comment "Unenclosed areas within architectural sites."@en .
+
+aat:300006148 a crm:E55_Type ;
+  rdfs:label "Mihrab (niche)"@en ;
+  skos:broader aat:300004166 ; # Niches
+  rdfs:comment "A niche in a mosque indicating the direction of Mecca, e.g., Old Mihrab."@en .
+
+aat:300004166 a crm:E55_Type ;
+  rdfs:label "Niches"@en ;
+  skos:broader aat:300002614 ; # Wall components
+  rdfs:comment "Recessed areas in walls, including mihrabs."@en .
+
+aat:300007524 a crm:E55_Type ;
+  rdfs:label "Ivan (vaulted hall)"@en ;
+  skos:broader aat:300002879 ; # Halls
+  rdfs:comment "A vaulted space open on one side, e.g., South Ivan."@en .
+
+aat:300002879 a crm:E55_Type ;
+  rdfs:label "Halls"@en ;
+  skos:broader aat:300004143 ; # Rooms
+  rdfs:comment "Large enclosed spaces, including Ivans."@en .
+
+aat:300015637 a crm:E55_Type ;
+  rdfs:label "Engraving (print)"@en ;
+  skos:broader aat:300041340 ; # Prints
+  rdfs:comment "Images created by cutting into a surface, e.g., South Ivan engraving."@en .
+
+aat:300041340 a crm:E55_Type ;
+  rdfs:label "Prints"@en ;
+  skos:broader aat:300041323 ; # Visual works
+  rdfs:comment "Images reproduced on paper or other surfaces."@en .
+
+aat:300028665 a crm:E55_Type ;
+  rdfs:label "Dedicatory inscriptions"@en ;
+  skos:broader aat:300028707 ; # Inscriptions
+  rdfs:comment "Inscriptions commemorating patronage or creation, e.g., Old Mihrab texts."@en .
+
+aat:300028707 a crm:E55_Type ;
+  rdfs:label "Inscriptions"@en ;
+  skos:broader aat:300028633 ; # Documents
+  rdfs:comment "Written texts on surfaces, e.g., Kufic inscriptions."@en .
+
+aat:300028633 a crm:E55_Type ;
+  rdfs:label "Documents"@en ;
+  skos:broader aat:300026029 ; # Information forms
+  rdfs:comment "Records carrying information, including inscriptions."@en .
+
+aat:300033618 a crm:E55_Type ;
+  rdfs:label "Photographs"@en ;
+  skos:broader aat:300046300 ; # Visual works
+  rdfs:comment "Images created by light on photosensitive surfaces, e.g., inscription photos."@en .
+
+aat:300046300 a crm:E55_Type ;
+  rdfs:label "Visual works"@en ;
+  skos:broader aat:300015576 ; # Art
+  rdfs:comment "Works primarily visual in nature, including photographs."@en .
+
+aat:300073688 a crm:E55_Type ;
+  rdfs:label "Sacred texts"@en ;
+  skos:broader aat:300028669 ; # Texts
+  rdfs:comment "Religious writings, e.g., Quranic verses in inscriptions."@en .
+
+aat:300028669 a crm:E55_Type ;
+  rdfs:label "Texts"@en ;
+  skos:broader aat:300028633 ; # Documents
+  rdfs:comment "Written content, including sacred texts."@en .
+
+aat:300081102 a crm:E55_Type ;
+  rdfs:label "Interior views"@en ;
+  skos:broader aat:300124515 ; # Views
+  rdfs:comment "Images depicting the interior of structures, e.g., dome interiors."@en .
+
+aat:300081103 a crm:E55_Type ;
+  rdfs:label "Exterior views"@en ;
+  skos:broader aat:300124515 ; # Views
+  rdfs:comment "Images depicting the exterior of structures, e.g., dome exteriors."@en .
+
+aat:300124515 a crm:E55_Type ;
+  rdfs:label "Views"@en ;
+  skos:broader aat:300015576 ; # Art
+  rdfs:comment "Visual representations of scenes or objects."@en .
+
+aat:300201702 a crm:E55_Type ;
+  rdfs:label "Nastaʿliq script"@en ;
+  skos:broader aat:300343696 ; # Arabic scripts
+  rdfs:comment "A calligraphic script used in Persian inscriptions, e.g., New Mihrab."@en .
+
+aat:300343697 a crm:E55_Type ;
+  rdfs:label "Kufic script"@en ;
+  skos:broader aat:300343696 ; # Arabic scripts
+  rdfs:comment "An early Arabic script used in inscriptions, e.g., Old Mihrab."@en .
+
+aat:300343699 a crm:E55_Type ;
+  rdfs:label "Thuluth script"@en ;
+  skos:broader aat:300343696 ; # Arabic scripts
+  rdfs:comment "A cursive Arabic script used in inscriptions, e.g., Old Mihrab tiles."@en .
+
+aat:300343696 a crm:E55_Type ;
+  rdfs:label "Arabic scripts"@en ;
+  skos:broader aat:300194028 ; # Writing systems
+  rdfs:comment "Scripts used for writing Arabic, including Kufic and Nastaʿliq."@en .
+
+aat:300194028 a crm:E55_Type ;
+  rdfs:label "Writing systems"@en ;
+  skos:broader aat:300193977 ; # Communication systems
+  rdfs:comment "Systems for recording language, including scripts."@en . 
+
+aat:300010463 a crm:E55_Type ;
+  rdfs:label "Brick"@en ;
+  skos:broader aat:300010462 ; # brick (clay material)
+  rdfs:comment "Clay or clay products formed into a rectangular block and hardened by drying in the sun or firing in a kilnSystems for recording language, including scripts."@en .   
+
+
+  
+
+
+
+# Wikidata Entities
+wd:Q32815 a crm:E55_Type ;
+  rdfs:label "Mosque"@en, "مسجد"@fa ;
+  rdfs:comment "A place of worship for Muslims, e.g., Jameh Mosque of Isfahan."@en .
+
+wd:Q13955 a crm:E56_Language ;
+  rdfs:label "Arabic"@en, "العربية"@ar ;
+  rdfs:comment "The Arabic language, used in Quranic inscriptions."@en .
+
+wd:Q1860 a crm:E56_Language ;
+  rdfs:label "English"@en, "انگلیسی"@fa ;
+  rdfs:comment "The English language, used in document descriptions."@en .
+
+wd:Q298427 a crm:E39_Actor ;
+  rdfs:label "Nizam al-Mulk"@en, "نظام‌الملک"@fa ;
+  rdfs:comment "A Seljuq vizier and patron, associated with Nizam al-Mulk Dome."@en .
+
+wd:Q28870762 a crm:E39_Actor ;
+  rdfs:label "Taj al-Mulk"@en, "تاج‌الملک"@fa ;
+  rdfs:comment "A Seljuq patron, associated with Taj al-Mulk Dome."@en .  
+
+
+
+# TGM Terms
+tgm:sh85038924 a crm:E55_Type ;
+  rdfs:label "Domes"@en ;
+  rdfs:comment "Thesaurus for Graphic Materials term for domed structures, e.g., Taj al-Mulk Dome."@en .
+
+tgm:sh85066530 a crm:E55_Type ;
+  rdfs:label "Inscriptions"@en ;
+  rdfs:comment "Thesaurus for Graphic Materials term for written texts, e.g., Kufic inscriptions."@en .    
