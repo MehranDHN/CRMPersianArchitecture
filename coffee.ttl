@@ -1,0 +1,203 @@
+@prefix : <http://test.org/coffee.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://test.org/coffee.owl> a owl:Ontology .
+
+:LocalCoffee a :Coffee,
+        owl:NamedIndividual ;
+    :from_region :latin_america1 ;
+    :has_body "Light"^^xsd:string ;
+    :has_processing :washed1 ;
+    :has_roast :blonde_roast1 .
+
+:Pike a owl:Class ;
+    rdfs:subClassOf :Coffee ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Coffee [ a owl:Restriction ;
+                        owl:onProperty :has_roast ;
+                        owl:someValuesFrom :Roast ] [ a owl:Restriction ;
+                        owl:allValuesFrom :Medium_Roast ;
+                        owl:onProperty :has_roast ] [ a owl:Restriction ;
+                        owl:onProperty :from_region ;
+                        owl:someValuesFrom :Region ] [ a owl:Restriction ;
+                        owl:allValuesFrom :Latin_America ;
+                        owl:onProperty :from_region ] [ a owl:Restriction ;
+                        owl:hasValue "Medium"^^xsd:string ;
+                        owl:onProperty :has_body ] [ a owl:Restriction ;
+                        owl:onProperty :has_processing ;
+                        owl:someValuesFrom :Processing ] [ a owl:Restriction ;
+                        owl:allValuesFrom :Washed ;
+                        owl:onProperty :has_processing ] ) ] .
+
+:RegionalCoffee a :Coffee,
+        owl:NamedIndividual ;
+    :from_region :asia_pacific1 ;
+    :has_body "Full"^^xsd:string ;
+    :has_processing :washed2 ;
+    :has_roast :dark_roast1 .
+
+:StateCoffee a :Coffee,
+        owl:NamedIndividual ;
+    :from_region :multi1 ;
+    :has_body "Full"^^xsd:string ;
+    :has_processing :semi_washed1,
+        :washed3 ;
+    :has_roast :medium_roast1 .
+
+:Sumatra a owl:Class ;
+    rdfs:subClassOf :Coffee ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Coffee [ a owl:Restriction ;
+                        owl:onProperty :has_roast ;
+                        owl:someValuesFrom :Roast ] [ a owl:Restriction ;
+                        owl:allValuesFrom :Dark_Roast ;
+                        owl:onProperty :has_roast ] [ a owl:Restriction ;
+                        owl:onProperty :from_region ;
+                        owl:someValuesFrom :Region ] [ a owl:Restriction ;
+                        owl:allValuesFrom :Asia_Pacific ;
+                        owl:onProperty :from_region ] [ a owl:Restriction ;
+                        owl:hasValue "Full"^^xsd:string ;
+                        owl:onProperty :has_body ] [ a owl:Restriction ;
+                        owl:onProperty :has_processing ;
+                        owl:someValuesFrom :Processing ] [ a owl:Restriction ;
+                        owl:allValuesFrom :Washed ;
+                        owl:onProperty :has_processing ] ) ] .
+
+:Veranda a owl:Class ;
+    rdfs:subClassOf :Coffee ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Coffee [ a owl:Restriction ;
+                        owl:onProperty :has_roast ;
+                        owl:someValuesFrom :Roast ] [ a owl:Restriction ;
+                        owl:allValuesFrom :Blonde_Roast ;
+                        owl:onProperty :has_roast ] [ a owl:Restriction ;
+                        owl:onProperty :from_region ;
+                        owl:someValuesFrom :Region ] [ a owl:Restriction ;
+                        owl:allValuesFrom :Latin_America ;
+                        owl:onProperty :from_region ] [ a owl:Restriction ;
+                        owl:hasValue "Light"^^xsd:string ;
+                        owl:onProperty :has_body ] [ a owl:Restriction ;
+                        owl:onProperty :has_processing ;
+                        owl:someValuesFrom :Processing ] [ a owl:Restriction ;
+                        owl:allValuesFrom :Washed ;
+                        owl:onProperty :has_processing ] ) ] .
+
+:Yukon_Blend a owl:Class ;
+    rdfs:subClassOf :Coffee ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Coffee [ a owl:Restriction ;
+                        owl:onProperty :has_roast ;
+                        owl:someValuesFrom :Roast ] [ a owl:Restriction ;
+                        owl:allValuesFrom :Medium_Roast ;
+                        owl:onProperty :has_roast ] [ a owl:Restriction ;
+                        owl:onProperty :from_region ;
+                        owl:someValuesFrom :Region ] [ a owl:Restriction ;
+                        owl:allValuesFrom :Multi ;
+                        owl:onProperty :from_region ] [ a owl:Restriction ;
+                        owl:hasValue "Full"^^xsd:string ;
+                        owl:onProperty :has_body ] [ a owl:Restriction ;
+                        owl:onProperty :has_processing ;
+                        owl:someValuesFrom :Processing ] [ a owl:Restriction ;
+                        owl:allValuesFrom [ a owl:Class ;
+                                owl:unionOf ( :Washed :Semi_Washed ) ] ;
+                        owl:onProperty :has_processing ] ) ] .
+
+:asia_pacific1 a :Asia_Pacific,
+        owl:NamedIndividual .
+
+:blonde_roast1 a :Blonde_Roast,
+        owl:NamedIndividual .
+
+:dark_roast1 a :Dark_Roast,
+        owl:NamedIndividual .
+
+:grown_in a owl:ObjectProperty ;
+    rdfs:domain :Region ;
+    rdfs:range :Coffee ;
+    owl:inverseOf :from_region .
+
+:latin_america1 a :Latin_America,
+        owl:NamedIndividual .
+
+:medium_roast1 a :Medium_Roast,
+        owl:NamedIndividual .
+
+:multi1 a :Multi,
+        owl:NamedIndividual .
+
+:semi_washed1 a :Semi_Washed,
+        owl:NamedIndividual .
+
+:washed1 a :Washed,
+        owl:NamedIndividual .
+
+:washed2 a :Washed,
+        owl:NamedIndividual .
+
+:washed3 a :Washed,
+        owl:NamedIndividual .
+
+:Semi_Washed a owl:Class ;
+    rdfs:subClassOf :Processing .
+
+:Asia_Pacific a owl:Class ;
+    rdfs:subClassOf :Region .
+
+:Blonde_Roast a owl:Class ;
+    rdfs:subClassOf :Roast .
+
+:Dark_Roast a owl:Class ;
+    rdfs:subClassOf :Roast .
+
+:Multi a owl:Class ;
+    rdfs:subClassOf :Region .
+
+:Latin_America a owl:Class ;
+    rdfs:subClassOf :Region .
+
+:Medium_Roast a owl:Class ;
+    rdfs:subClassOf :Roast .
+
+:has_body a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :Coffee ;
+    rdfs:range xsd:string .
+
+:Processing a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:Roast a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:Washed a owl:Class ;
+    rdfs:subClassOf :Processing .
+
+:has_processing a owl:ObjectProperty ;
+    rdfs:domain :Coffee ;
+    rdfs:range :Processing .
+
+:has_roast a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain :Coffee .
+
+:Region a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:from_region a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain :Coffee ;
+    rdfs:range :Region ;
+    owl:inverseOf :grown_in .
+
+:Coffee a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :Latin_America :Asia_Pacific :Multi ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :Dark_Roast :Blonde_Roast :Medium_Roast ) .
+
