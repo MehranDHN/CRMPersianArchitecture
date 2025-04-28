@@ -1,0 +1,75 @@
+@prefix : <http://test.org/coffee.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix coffee: <http://www.example.org/coffee#> .
+@prefix beans: <http://www.example.org/coffeebeans#> .
+
+# Ontology declaration
+<http://www.example.org/coffeebeans> a owl:Ontology ;
+    rdfs:comment "An ontology for coffee beans, their flavors, and producing countries"@en .
+
+# Class definitions
+:CoffeeBean a owl:Class ;
+    rdfs:label "Coffee Bean"@en ;
+    rdfs:comment "A type of coffee bean, such as Arabica or Robusta"@en .
+
+:FlavorProfile a owl:Class ;
+    rdfs:label "Flavor Profile"@en ;
+    rdfs:comment "A description of the flavor characteristics of a coffee bean"@en .
+
+:Country a owl:Class ;
+    rdfs:label "Country"@en ;
+    rdfs:comment "A country known for producing coffee beans"@en .
+
+# Property definitions
+:producedIn a owl:ObjectProperty ;
+    rdfs:domain :CoffeeBean ;
+    rdfs:range :Country ;
+    rdfs:label "produced in"@en ;
+    rdfs:comment "Links a coffee bean to the country where it is grown"@en .
+
+:hasFlavor a owl:ObjectProperty ;
+    rdfs:domain :CoffeeBean ;
+    rdfs:range :FlavorProfile ;
+    rdfs:label "has flavor"@en ;
+    rdfs:comment "Links a coffee bean to its flavor profile"@en .
+
+:hasVariety a owl:DatatypeProperty ;
+    rdfs:domain :CoffeeBean ;
+    rdfs:range xsd:string ;
+    rdfs:label "has variety"@en ;
+    rdfs:comment "Specifies the variety of a coffee bean, e.g., Typica, Geisha"@en .
+
+
+# Property to link Coffee to CoffeeBean
+coffee:usesBean a owl:ObjectProperty ;
+    rdfs:domain coffee:Coffee ;
+    rdfs:range beans:CoffeeBean ;
+    rdfs:label "uses bean"@en ;
+    rdfs:comment "Links a coffee drink to the type of coffee bean used"@en .
+
+# Class alignment (Region equivalent to Country)
+coffee:Region owl:equivalentClass beans:Country .
+
+# Property definitions (original + new)
+coffee:hasIngredient a owl:ObjectProperty ;
+    rdfs:domain coffee:Coffee ;
+    rdfs:range coffee:Ingredient ;
+    rdfs:label "has ingredient"@en .
+
+coffee:hasCaffeineContent a owl:DatatypeProperty ;
+    rdfs:domain coffee:Coffee ;
+    rdfs:range xsd:integer ;
+    rdfs:label "has caffeine content"@en .
+
+coffee:grown_in a owl:ObjectProperty ;
+    rdfs:domain coffee:Coffee ;
+    rdfs:range coffee:Region ;
+    rdfs:label "grown in"@en .
+
+coffee:usesBean a owl:ObjectProperty ;
+    rdfs:domain coffee:Coffee ;
+    rdfs:range beans:CoffeeBean ;
+    rdfs:label "uses bean"@en .    

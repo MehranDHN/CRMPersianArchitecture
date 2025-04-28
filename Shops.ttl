@@ -1,0 +1,29 @@
+@prefix shops: <http://www.example.org/coffeeshops#> .
+@prefix coffee: <http://www.example.org/coffee#> .
+@prefix beans: <http://www.example.org/coffeebeans#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology declaration
+<http://www.example.org/coffeeshops> a owl:Ontology ;
+    rdfs:comment "An ontology for famous coffee shop brands and their coffee offerings"@en .
+
+# Class definitions
+shops:CoffeeShopBrand a owl:Class ;
+    rdfs:label "Coffee Shop Brand"@en ;
+    rdfs:comment "A brand or chain that sells coffee drinks, e.g., Starbucks"@en .
+
+# Property definitions
+shops:offersCoffee a owl:ObjectProperty ;
+    rdfs:domain shops:CoffeeShopBrand ;
+    rdfs:range coffee:Coffee ;
+    rdfs:label "offers coffee"@en ;
+    rdfs:comment "Links a coffee shop brand to a coffee drink it offers"@en .
+
+shops:sourcesBean a owl:ObjectProperty ;
+    rdfs:domain shops:CoffeeShopBrand ;
+    rdfs:range beans:CoffeeBean ;
+    rdfs:label "sources bean"@en ;
+    rdfs:comment "Links a coffee shop brand to the type of coffee bean it sources"@en .
