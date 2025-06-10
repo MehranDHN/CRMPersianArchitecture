@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
-  "@id": "http://example.org/iiif/manifest/db937b89-1a4e-48f3-8990-9dd54dd7ce65",
+  "@id": "http://example.org/iiif/manifest/34218482-974b-496c-be68-7d29c46a9c85",
   "label": "Selected Canvases Manifest",
   "metadata": [
     {
@@ -15,7 +15,7 @@
   ],
   "sequences": [
     {
-      "@id": "http://example.org/iiif/sequence/7c55108a-a74b-45e5-9501-43c3369a618f",
+      "@id": "http://example.org/iiif/sequence/b88af0c1-f181-4b59-a941-3ba4178c1c91",
       "@type": "sc:Sequence",
       "label": "Default Sequence",
       "canvases": [
@@ -27,7 +27,7 @@
           "width": 3986,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/793faafd-8d02-4251-9c1b-2b8fc47191c2",
+              "@id": "http://example.org/iiif/annotation/9fca8d05-d32f-45ea-a25f-3fb9c4351fe4",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -54,7 +54,7 @@
           "width": 3494,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/529c9b07-b28a-4111-a8a0-6895a1ac7848",
+              "@id": "http://example.org/iiif/annotation/ead880bd-874e-46bb-b0f8-7ae49771852e",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -81,7 +81,7 @@
           "width": 3679,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/b0bc7dba-cee8-4736-b58d-08bfd4c9717a",
+              "@id": "http://example.org/iiif/annotation/8b131662-324c-4eee-b125-768f56cb8066",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -105,7 +105,7 @@
   ],
   "structures": [
     {
-      "@id": "http://example.org/iiif/range/48836842-0997-4f8d-bae7-ca57e47fccd4",
+      "@id": "http://example.org/iiif/range/f619f6cc-5a25-4d26-abb3-638d64085f1a",
       "@type": "sc:Range",
       "label": "Table of Contents",
       "viewingHint": "top",
