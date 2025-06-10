@@ -1,0 +1,343 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "http://example.org/iiif/manifest/ef38844c-6571-45d2-baae-03ca32cbcde5",
+  "label": "Combined Canvases Manifest",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Combined Canvases from Manchester Medieval Collection"
+    },
+    {
+      "label": "Source",
+      "value": "University of Manchester Library"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://example.org/iiif/sequence/8d35584a-c6be-4b7c-8008-f1e610b8aac0",
+      "@type": "sc:Sequence",
+      "label": "Default Sequence",
+      "canvases": [
+        {
+          "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page4",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 6500,
+          "width": 3485,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/94320b25-0139-450f-addd-ee823f180202",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page4/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6500,
+                "width": 3485,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page4",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page4"
+            }
+          ]
+        },
+        {
+          "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page5",
+          "@type": "sc:Canvas",
+          "label": "6",
+          "height": 6500,
+          "width": 3497,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/e7a3518c-a490-406e-ba66-3f9d11455316",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page5/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6500,
+                "width": 3497,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page5",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page5"
+            }
+          ]
+        },
+        {
+          "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page6",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 6500,
+          "width": 3485,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/768d0ef5-9552-4696-ab84-5b79e897d539",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page6/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6500,
+                "width": 3485,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page6",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page6"
+            }
+          ]
+        },
+        {
+          "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page7",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 6500,
+          "width": 3497,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/6c94eaca-52b7-40c1-9003-6c0e8f6fab09",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page7/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6500,
+                "width": 3497,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page7",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page7"
+            }
+          ]
+        },
+        {
+          "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page8",
+          "@type": "sc:Canvas",
+          "label": "9",
+          "height": 6500,
+          "width": 3485,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/720741d2-a469-49e4-8a92-b9ba6b68d955",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page8/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6500,
+                "width": 3485,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page8",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page8"
+            }
+          ]
+        },
+        {
+          "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page9",
+          "@type": "sc:Canvas",
+          "label": "10",
+          "height": 6500,
+          "width": 3476,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/1dd67f39-332a-4ef2-a5cc-7b81ef36d503",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page9/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6500,
+                "width": 3476,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page9",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page9"
+            }
+          ]
+        },
+        {
+          "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~433494~224230/canvas/c1/page3",
+          "@type": "sc:Canvas",
+          "label": "4",
+          "height": 7000,
+          "width": 5042,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/8bffd0a3-6a34-471a-ac0e-3ca7f107e254",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Manchester~91~1~433494~224230page3/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7000,
+                "width": 5042,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Manchester~91~1~433494~224230page3",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~433494~224230/canvas/c1/page3"
+            }
+          ]
+        },
+        {
+          "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~433494~224230/canvas/c1/page4",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 7000,
+          "width": 4729,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/91d05fd0-00d2-47f9-a4eb-e5bf49744831",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Manchester~91~1~433494~224230page4/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7000,
+                "width": 4729,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Manchester~91~1~433494~224230page4",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~433494~224230/canvas/c1/page4"
+            }
+          ]
+        },
+        {
+          "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~433494~224230/canvas/c1/page6",
+          "@type": "sc:Canvas",
+          "label": "7",
+          "height": 7000,
+          "width": 4840,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/c230c6cd-b406-493d-99a6-fe7cd1a7c830",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Manchester~91~1~433494~224230page6/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7000,
+                "width": 4840,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Manchester~91~1~433494~224230page6",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~433494~224230/canvas/c1/page6"
+            }
+          ]
+        },
+        {
+          "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~433494~224230/canvas/c1/page7",
+          "@type": "sc:Canvas",
+          "label": "8",
+          "height": 7000,
+          "width": 5187,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/fa4ad957-6847-433a-9dae-ef9d2636b06b",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Manchester~91~1~433494~224230page7/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7000,
+                "width": 5187,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Manchester~91~1~433494~224230page7",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~433494~224230/canvas/c1/page7"
+            }
+          ]
+        },
+        {
+          "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~433494~224230/canvas/c1/page9",
+          "@type": "sc:Canvas",
+          "label": "10",
+          "height": 7000,
+          "width": 5187,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/50c73a6f-b718-4287-be63-7a89cc008294",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Manchester~91~1~433494~224230page9/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 7000,
+                "width": 5187,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Manchester~91~1~433494~224230page9",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~433494~224230/canvas/c1/page9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "http://example.org/iiif/range/1789116c-db8d-4c41-ac4c-50b14e846f7c",
+      "@type": "sc:Range",
+      "label": "Table of Contents",
+      "viewingHint": "top",
+      "canvases": [
+        "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page4",
+        "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page5",
+        "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page6",
+        "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page7",
+        "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page8",
+        "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page9",
+        "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~433494~224230/canvas/c1/page3",
+        "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~433494~224230/canvas/c1/page4",
+        "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~433494~224230/canvas/c1/page6",
+        "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~433494~224230/canvas/c1/page7",
+        "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Manchester~91~1~433494~224230/canvas/c1/page9"
+      ]
+    }
+  ]
+}
