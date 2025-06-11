@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
-  "id": "http://example.org/iiif/manifest/bf8668b1-cf89-4994-aa2e-650621d9dfde",
+  "id": "http://example.org/iiif/manifest/bdc80c99-0784-49b5-8e38-4270c2622197",
   "label": {
     "en": [
       "Combined Canvases Manifest"
@@ -35,11 +35,11 @@
   ],
   "items": [
     {
-      "id": "http://example.org/iiif/sequence/d1245382-eecb-4ac1-ad5e-bdff42e63199",
+      "id": "http://example.org/iiif/sequence/59f422af-ca7f-451c-bafd-473f35a86232",
       "type": "Sequence",
       "label": {
         "en": [
-          "Default Sequence"
+          "Default"
         ]
       },
       "items": [
@@ -55,11 +55,11 @@
           "width": 3986,
           "items": [
             {
-              "id": "http://example.org/iiif/annotationpage/d95067d9-7f60-46df-a300-6d6e9e8b060c",
+              "id": "http://example.org/iiif/annotationpage/14fdf1a8-b19e-4877-8db3-ed4359e4fc8c",
               "type": "AnnotationPage",
               "items": [
                 {
-                  "id": "http://example.org/iiif/annotation/b92b56e3-332b-4b76-ab95-524490c3767f",
+                  "id": "http://example.org/iiif/annotation/3a300b71-419e-4107-8e59-7013d7e530ef",
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
@@ -94,11 +94,11 @@
           "width": 3494,
           "items": [
             {
-              "id": "http://example.org/iiif/annotationpage/39e5cfa4-ef0e-4764-86a2-9c3757ba8c01",
+              "id": "http://example.org/iiif/annotationpage/ae1a712c-bea0-4805-96c5-1fc6e4da93e8",
               "type": "AnnotationPage",
               "items": [
                 {
-                  "id": "http://example.org/iiif/annotation/475f906a-d500-4427-a568-9607067ba1b8",
+                  "id": "http://example.org/iiif/annotation/7c1d4fec-66ff-45bf-8b1f-77304f6466c1",
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
@@ -133,11 +133,11 @@
           "width": 1855,
           "items": [
             {
-              "id": "http://example.org/iiif/annotationpage/cdbff8e2-60f6-42a7-b759-adc7fbeeba59",
+              "id": "http://example.org/iiif/annotationpage/cbc0981b-9265-4442-b84b-9bf3858dd4e4",
               "type": "AnnotationPage",
               "items": [
                 {
-                  "id": "http://example.org/iiif/annotation/24d67478-c454-4534-9a06-3c24d5554080",
+                  "id": "http://example.org/iiif/annotation/17d751f9-d7f4-4d23-8962-cc83becb499d",
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
@@ -165,7 +165,7 @@
   ],
   "structures": [
     {
-      "id": "http://example.org/iiif/range/6bddf6b9-3743-44e2-8268-a6f421b00a0f",
+      "id": "http://example.org/iiif/range/dc2fd667-c23c-46a5-b4ef-7bcb93e69333",
       "type": "Range",
       "label": {
         "en": [
@@ -174,7 +174,7 @@
       },
       "items": [
         {
-          "id": "http://example.org/iiif/range/0796c3d6-ad9f-4454-9761-fb60c2df34b4",
+          "id": "http://example.org/iiif/range/dc657e41-f981-4f80-b86f-524d10cf92ad",
           "type": "Range",
           "label": {
             "en": [
@@ -183,7 +183,7 @@
           },
           "items": [
             {
-              "id": "http://example.org/iiif/range/f0ef615b-b5ee-47b4-a29e-45a35de69368",
+              "id": "http://example.org/iiif/range/cdf52ec2-81b3-4098-b5a7-8ef9e04e2111",
               "type": "Range",
               "label": {
                 "en": [
@@ -192,7 +192,7 @@
               },
               "items": [
                 {
-                  "id": "http://example.org/iiif/range/dd431252-593c-468d-b66f-023345c56f00",
+                  "id": "http://example.org/iiif/range/58aefc4f-95c7-4575-afff-ff171003ceb8",
                   "type": "Range",
                   "label": {
                     "en": [
@@ -201,7 +201,7 @@
                   },
                   "items": [
                     {
-                      "id": "http://example.org/iiif/range/a5860ee3-41b6-460c-99f3-403844256158",
+                      "id": "http://example.org/iiif/range/00998e78-f8c0-43d4-8120-572594c40b61",
                       "type": "Range",
                       "label": {
                         "en": [
@@ -213,7 +213,7 @@
                       ]
                     },
                     {
-                      "id": "http://example.org/iiif/range/2487df2e-8296-4d8e-8cc0-1aa7dda6ebfc",
+                      "id": "http://example.org/iiif/range/63dcc86b-8b66-40b3-b320-19f451ff5819",
                       "type": "Range",
                       "label": {
                         "en": [
@@ -229,7 +229,7 @@
               ]
             },
             {
-              "id": "http://example.org/iiif/range/948583bb-b654-4329-8325-fcc4edc4d52a",
+              "id": "http://example.org/iiif/range/ba3eb3b9-15e4-4a69-83ed-81a96d064a7b",
               "type": "Range",
               "label": {
                 "en": [
@@ -238,7 +238,7 @@
               },
               "items": [
                 {
-                  "id": "http://example.org/iiif/range/7e95625f-4ec7-44b9-941e-cb41a9061e33",
+                  "id": "http://example.org/iiif/range/c4e544ab-1317-4d2b-ad5b-ece2b7344799",
                   "type": "Range",
                   "label": {
                     "en": [
@@ -253,9 +253,6 @@
             }
           ]
         }
-      ],
-      "behavior": [
-        "top"
       ]
     }
   ]
