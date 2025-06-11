@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
-  "@id": "http://example.org/iiif/manifest/0786631b-cf17-4ec5-8729-3f3f3dea0f7f",
+  "@id": "http://example.org/iiif/manifest/57031ae1-00d7-4c52-99ab-26aab59e9960",
   "label": "Combined Canvases Manifest",
   "metadata": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "label": "Source",
-      "value": "Gallica, Berlin, Columbia, and others"
+      "value": "Gallica, Berlin, LOC, and others"
     },
     {
       "label": "Creator",
@@ -23,7 +23,7 @@
   ],
   "sequences": [
     {
-      "@id": "http://example.org/iiif/sequence/3f40431a-cbd4-4d7a-87d6-c79af4d01eb9",
+      "@id": "http://example.org/iiif/sequence/3b68d7d6-6d59-47cc-b8e8-c6ce1b0d7c27",
       "@type": "sc:Sequence",
       "label": "Default Sequence",
       "canvases": [
@@ -35,7 +35,7 @@
           "width": 2404,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/a0fe1c5c-b2c3-4be5-a172-c03ba160b1fd",
+              "@id": "http://example.org/iiif/annotation/acd45ae6-b1a6-4b29-b11f-1d5d78580abf",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -62,7 +62,7 @@
           "width": 2404,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/5c2c682f-cd2b-42bf-94d7-69ff26f6d3e7",
+              "@id": "http://example.org/iiif/annotation/bde91f81-70fd-4c12-862a-6e7f5912f7fe",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -89,7 +89,7 @@
           "width": 2404,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/2fd5e56f-9620-44c1-bc4c-e3658bd68ac3",
+              "@id": "http://example.org/iiif/annotation/724053d0-c6af-4e8f-9110-bf558775c68e",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -116,7 +116,7 @@
           "width": 2394,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/0ea9a92a-35dc-4c82-af53-189475cc6d1e",
+              "@id": "http://example.org/iiif/annotation/5a365371-dca7-4b61-bca1-8d4201b1e92e",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -143,7 +143,7 @@
           "width": 2404,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/7de259ea-2c5c-4f56-bd2e-359cfc7f671e",
+              "@id": "http://example.org/iiif/annotation/3be804a9-d618-464f-bc7e-642f2967cbae",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -170,7 +170,7 @@
           "width": 2404,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/4f303390-6abf-4676-91a5-1bf160e6f85b",
+              "@id": "http://example.org/iiif/annotation/33fe884b-a238-4a8a-86fc-0806b7ad4c96",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -197,7 +197,7 @@
           "width": 2404,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/7a733293-430a-4444-acdc-68eae361b4f7",
+              "@id": "http://example.org/iiif/annotation/d94f2107-749e-4ad7-802a-eeca2d680334",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -224,7 +224,7 @@
           "width": 2404,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/d3f3af56-c19b-4725-8cef-961a48cb616c",
+              "@id": "http://example.org/iiif/annotation/aecfe85e-79ea-4377-9cf0-68787c805031",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -251,7 +251,7 @@
           "width": 2404,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/fa9e98ae-4743-4f39-998b-6b98c88636a1",
+              "@id": "http://example.org/iiif/annotation/056ef5a3-0350-407c-b2ff-11fe73d4c3e9",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -278,7 +278,7 @@
           "width": 2404,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/7e933095-62dd-444d-87c9-ce52bbc53af5",
+              "@id": "http://example.org/iiif/annotation/e9c05d2b-1df1-4630-afda-8b792c783aaf",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -305,7 +305,7 @@
           "width": 4028,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/4c0948c4-7a25-4257-90d5-83d2cf89d38d",
+              "@id": "http://example.org/iiif/annotation/792203a6-202a-4714-ade6-d13d1944957c",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -332,7 +332,7 @@
           "width": 6404,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/4d76d581-9450-4936-8916-95a503a54b2a",
+              "@id": "http://example.org/iiif/annotation/cc621439-832f-4725-be86-a34f9f517129",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -359,7 +359,7 @@
           "width": 3792,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/bc5fe70e-ee72-40d6-bc69-5d95e0c62081",
+              "@id": "http://example.org/iiif/annotation/1f36649b-f7b1-4106-bd6a-4bed4bffda13",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -386,7 +386,7 @@
           "width": 3792,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/b334a9f2-0502-4257-86df-61633fa783e5",
+              "@id": "http://example.org/iiif/annotation/651e8010-10a0-4696-8d8a-88f8278f8595",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -413,7 +413,7 @@
           "width": 3778,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/fc2cd426-5f34-4143-a032-19e52c04b743",
+              "@id": "http://example.org/iiif/annotation/952ab263-edac-4842-9fda-611dccde72f7",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -440,7 +440,7 @@
           "width": 3763,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/96dac876-212b-4ce1-b56c-396c33095671",
+              "@id": "http://example.org/iiif/annotation/813c5548-5535-4358-9a75-f7270866140e",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -467,7 +467,7 @@
           "width": 3778,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/7d52f411-3cd6-42c9-b8ac-9247c013af0d",
+              "@id": "http://example.org/iiif/annotation/c876d7fc-6635-4ed3-85fb-b92dbaae4f46",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -487,6 +487,33 @@
           ]
         },
         {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f40",
+          "@type": "sc:Canvas",
+          "label": "13v",
+          "height": 5943,
+          "width": 3793,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/b8f805e6-6ede-4ec0-828e-37a18e6d2432",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/f40/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5943,
+                "width": 3793,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/f40",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f40"
+            }
+          ]
+        },
+        {
           "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f1",
           "@type": "sc:Canvas",
           "label": "plat supérieur",
@@ -494,7 +521,7 @@
           "width": 3317,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/68054f71-5aaf-4cab-8713-5e512cf2b704",
+              "@id": "http://example.org/iiif/annotation/962aa33d-577b-43b2-88d6-70102f5120a8",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -521,7 +548,7 @@
           "width": 3231,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/f8f52364-15ce-41da-99a5-a0e79d299a94",
+              "@id": "http://example.org/iiif/annotation/a8425968-b7bc-41d1-9af9-a74c0f1a7779",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -548,7 +575,7 @@
           "width": 3119,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/f3bea791-028c-4193-998d-e01085e563ae",
+              "@id": "http://example.org/iiif/annotation/48b85497-cced-4697-89b5-6f3d4bc3a84f",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -575,7 +602,7 @@
           "width": 3133,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/318c0fcf-e42a-4737-9be9-9fff891c6811",
+              "@id": "http://example.org/iiif/annotation/f4b699f4-2714-4322-a3b6-9f22fc7904f7",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -602,7 +629,7 @@
           "width": 3119,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/9a2c2cc5-50fe-4f5e-925a-39334e2ae91e",
+              "@id": "http://example.org/iiif/annotation/a7c2d723-d3e0-48a2-bf06-1da380a5364f",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -629,7 +656,7 @@
           "width": 3125,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/c5ad2756-5ea6-448b-819f-7b030e3aee00",
+              "@id": "http://example.org/iiif/annotation/61aa531e-f0ba-449f-a21b-d6f6f19556cd",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -656,7 +683,7 @@
           "width": 3188,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/cba71cc7-6a61-4781-be38-b029ccfd8efd",
+              "@id": "http://example.org/iiif/annotation/dde96821-e960-4c7f-81dc-c657ba8dad5f",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -674,33 +701,303 @@
               "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f39"
             }
           ]
+        },
+        {
+          "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000001",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "height": 3885,
+          "width": 2459,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/25c958c4-dea5-45a2-8a1e-a050c79d8d03",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000001/full/pct:100/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3885,
+                "width": 2459,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000001",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000001"
+            }
+          ]
+        },
+        {
+          "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000002",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "height": 3826,
+          "width": 2298,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/2537f7d9-43a9-487a-89f9-1b69e99bd859",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000002/full/pct:100/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3826,
+                "width": 2298,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000002",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000002"
+            }
+          ]
+        },
+        {
+          "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000008",
+          "@type": "sc:Canvas",
+          "label": "Page 8",
+          "height": 3826,
+          "width": 2298,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/4647c95c-16da-48ed-8597-8c7ac1c4312b",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000008/full/pct:100/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3826,
+                "width": 2298,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000008",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000008"
+            }
+          ]
+        },
+        {
+          "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000009",
+          "@type": "sc:Canvas",
+          "label": "Page 9",
+          "height": 3826,
+          "width": 2298,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/037c9745-eb56-4ade-aa45-2f878aa976f2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000009/full/pct:100/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3826,
+                "width": 2298,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000009",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000009"
+            }
+          ]
+        },
+        {
+          "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000010",
+          "@type": "sc:Canvas",
+          "label": "Page 10",
+          "height": 3826,
+          "width": 2298,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/e8e88d44-3bf5-4549-8f52-9c624f156e1a",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000010/full/pct:100/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3826,
+                "width": 2298,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000010",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000010"
+            }
+          ]
+        },
+        {
+          "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000011",
+          "@type": "sc:Canvas",
+          "label": "Page 11",
+          "height": 3826,
+          "width": 2298,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/491332a2-ca49-412b-b3b3-a1b3d87b944d",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000011/full/pct:100/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3826,
+                "width": 2298,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000011",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000011"
+            }
+          ]
+        },
+        {
+          "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000012",
+          "@type": "sc:Canvas",
+          "label": "Page 12",
+          "height": 3826,
+          "width": 2299,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/4b901fcd-a87b-4077-8944-13973e7d2bf7",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000012/full/pct:100/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3826,
+                "width": 2299,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000012",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000012"
+            }
+          ]
+        },
+        {
+          "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000013",
+          "@type": "sc:Canvas",
+          "label": "Page 13",
+          "height": 3826,
+          "width": 2299,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/438d567e-44e5-4201-acf8-c48067c155ce",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000013/full/pct:100/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3826,
+                "width": 2299,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000013",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000013"
+            }
+          ]
+        },
+        {
+          "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000014",
+          "@type": "sc:Canvas",
+          "label": "Page 14",
+          "height": 3826,
+          "width": 2299,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/f8ae3991-610d-4015-a32c-71e13a45ee26",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000014/full/pct:100/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3826,
+                "width": 2299,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000014",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000014"
+            }
+          ]
+        },
+        {
+          "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000032",
+          "@type": "sc:Canvas",
+          "label": "Page 32",
+          "height": 3826,
+          "width": 2299,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/c5e3101a-406d-48df-b818-0662b622d9de",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000032/full/pct:100/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3826,
+                "width": 2299,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000032",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000032"
+            }
+          ]
         }
       ]
     }
   ],
   "structures": [
     {
-      "@id": "http://example.org/iiif/range/a121f742-f167-44d1-b5e8-8d7d77a19a56",
+      "@id": "http://example.org/iiif/range/41e31ea0-e059-4e3f-aab1-feb1771cf096",
       "@type": "sc:Range",
       "label": "Qesas al-anbiyâ Collection",
       "ranges": [
         {
-          "@id": "http://example.org/iiif/range/d54dfe40-db23-46f9-a550-1563e16d9a89",
+          "@id": "http://example.org/iiif/range/7386c0b7-22f7-42b4-a2be-b2e57d6c8431",
           "@type": "sc:Range",
           "label": "Selected Folios",
           "ranges": [
             {
-              "@id": "http://example.org/iiif/range/516f4100-551a-4117-941e-3fffb79ec868",
+              "@id": "http://example.org/iiif/range/449212e3-91da-4537-b220-ec02cb614df0",
               "@type": "sc:Range",
               "label": "Gallica",
               "ranges": [
                 {
-                  "@id": "http://example.org/iiif/range/0fe66c8d-d9ff-466c-8c83-8aae493f4226",
+                  "@id": "http://example.org/iiif/range/3240213a-22ad-4415-a148-bf22c757dfa9",
                   "@type": "sc:Range",
                   "label": "btv1b8410893r",
                   "ranges": [
                     {
-                      "@id": "http://example.org/iiif/range/c86783e4-68ed-4e70-8c62-26f58446084d",
+                      "@id": "http://example.org/iiif/range/e729c0cb-b903-470f-87bf-40cc03726563",
                       "@type": "sc:Range",
                       "label": "Opening Page",
                       "canvases": [
@@ -708,7 +1005,7 @@
                       ]
                     },
                     {
-                      "@id": "http://example.org/iiif/range/33afdeba-9f29-466c-bd7d-090de459a958",
+                      "@id": "http://example.org/iiif/range/819126f0-37b1-425b-b607-1de9e0ff4e4c",
                       "@type": "sc:Range",
                       "label": "Main Text",
                       "canvases": [
@@ -716,7 +1013,7 @@
                       ]
                     },
                     {
-                      "@id": "http://example.org/iiif/range/12026193-9918-4b5c-87b5-c7e751383e27",
+                      "@id": "http://example.org/iiif/range/96fac8e6-546d-43e6-81a8-26c51de041c3",
                       "@type": "sc:Range",
                       "label": "Main 12",
                       "canvases": [
@@ -724,7 +1021,7 @@
                       ]
                     },
                     {
-                      "@id": "http://example.org/iiif/range/217b62a8-f018-4bc2-a844-d8b20134c207",
+                      "@id": "http://example.org/iiif/range/7a1ff4b6-263f-4304-b430-7453473719b3",
                       "@type": "sc:Range",
                       "label": "Main 13",
                       "canvases": [
@@ -732,7 +1029,7 @@
                       ]
                     },
                     {
-                      "@id": "http://example.org/iiif/range/7fad1ba0-a8c6-4a85-924b-5913f7da938b",
+                      "@id": "http://example.org/iiif/range/d5cd67bb-014f-46df-ad3d-631990f4223e",
                       "@type": "sc:Range",
                       "label": "Main 14",
                       "canvases": [
@@ -740,7 +1037,7 @@
                       ]
                     },
                     {
-                      "@id": "http://example.org/iiif/range/ad0ffb17-5691-4174-806f-a9902f33fcc3",
+                      "@id": "http://example.org/iiif/range/bc795f34-bb87-4afd-bdd0-489759ebabc2",
                       "@type": "sc:Range",
                       "label": "Main 15",
                       "canvases": [
@@ -748,22 +1045,30 @@
                       ]
                     },
                     {
-                      "@id": "http://example.org/iiif/range/b01ea2c1-e347-468d-8fcb-bfa7e64a938e",
+                      "@id": "http://example.org/iiif/range/2dbf439b-cd78-4c32-b9c9-84d5439010e9",
                       "@type": "sc:Range",
                       "label": "Main 22",
                       "canvases": [
                         "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f23"
                       ]
+                    },
+                    {
+                      "@id": "http://example.org/iiif/range/57b531a9-fa92-46de-81c9-6a7bfd343f9a",
+                      "@type": "sc:Range",
+                      "label": "Main 39",
+                      "canvases": [
+                        "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f40"
+                      ]
                     }
                   ]
                 },
                 {
-                  "@id": "http://example.org/iiif/range/24af0cc2-6deb-4120-8166-c3af6b31cfe1",
+                  "@id": "http://example.org/iiif/range/52889c82-7207-4c45-a0dd-be27820f9491",
                   "@type": "sc:Range",
                   "label": "btv1b84271768",
                   "ranges": [
                     {
-                      "@id": "http://example.org/iiif/range/b0bb3b77-183e-47f7-8291-f90a8c7881cb",
+                      "@id": "http://example.org/iiif/range/62e839fd-2436-435c-9d4b-3971473fe29e",
                       "@type": "sc:Range",
                       "label": "Opening Page",
                       "canvases": [
@@ -771,7 +1076,7 @@
                       ]
                     },
                     {
-                      "@id": "http://example.org/iiif/range/2156e50d-3a91-464d-b556-0cd171e49a5a",
+                      "@id": "http://example.org/iiif/range/67bd39a0-c17c-476f-801f-b29c3f329fb3",
                       "@type": "sc:Range",
                       "label": "Main Text",
                       "canvases": [
@@ -779,7 +1084,7 @@
                       ]
                     },
                     {
-                      "@id": "http://example.org/iiif/range/bd315769-eb18-440a-927c-c198a39efda6",
+                      "@id": "http://example.org/iiif/range/068268dd-2aa4-4649-b83c-68bde1068fb1",
                       "@type": "sc:Range",
                       "label": "Main 12",
                       "canvases": [
@@ -787,7 +1092,7 @@
                       ]
                     },
                     {
-                      "@id": "http://example.org/iiif/range/b0f70884-f209-4035-9adc-8427d69e437d",
+                      "@id": "http://example.org/iiif/range/e815b3a0-34aa-4824-bdff-0adb0dae7e32",
                       "@type": "sc:Range",
                       "label": "Main 13",
                       "canvases": [
@@ -795,7 +1100,7 @@
                       ]
                     },
                     {
-                      "@id": "http://example.org/iiif/range/d0c4258d-1472-40e7-b229-11f56493dae6",
+                      "@id": "http://example.org/iiif/range/a1809bed-444e-4ab2-ba0f-27ab628188e1",
                       "@type": "sc:Range",
                       "label": "Main 14",
                       "canvases": [
@@ -803,7 +1108,7 @@
                       ]
                     },
                     {
-                      "@id": "http://example.org/iiif/range/343d81cb-0833-4fc7-9573-b6c2a4713df8",
+                      "@id": "http://example.org/iiif/range/9e430f90-b758-4b52-8601-17649e74fd75",
                       "@type": "sc:Range",
                       "label": "Main 15",
                       "canvases": [
@@ -811,7 +1116,7 @@
                       ]
                     },
                     {
-                      "@id": "http://example.org/iiif/range/109c2727-62b0-41b2-9efa-a08495f995f7",
+                      "@id": "http://example.org/iiif/range/15721f62-6ee5-49af-900e-ee23185a7d92",
                       "@type": "sc:Range",
                       "label": "Main 22",
                       "canvases": [
@@ -823,12 +1128,12 @@
               ]
             },
             {
-              "@id": "http://example.org/iiif/range/98b71892-809a-4c5f-9384-fcb95c2ee7a6",
+              "@id": "http://example.org/iiif/range/2e4c8520-48b5-47e1-8e7e-683f70702e4d",
               "@type": "sc:Range",
               "label": "Berlin PPN615574084",
               "ranges": [
                 {
-                  "@id": "http://example.org/iiif/range/bbb6e7b7-d388-4710-b352-ff5ac2149dbe",
+                  "@id": "http://example.org/iiif/range/4b00e66a-17ea-4774-94eb-d5a3f69bf74e",
                   "@type": "sc:Range",
                   "label": "Opening Page",
                   "canvases": [
@@ -836,7 +1141,7 @@
                   ]
                 },
                 {
-                  "@id": "http://example.org/iiif/range/11f77763-f3ad-4128-a9f8-cf7db80af692",
+                  "@id": "http://example.org/iiif/range/02735cdf-cfaa-49de-8cd5-305e36d74217",
                   "@type": "sc:Range",
                   "label": "Main Text",
                   "canvases": [
@@ -844,7 +1149,7 @@
                   ]
                 },
                 {
-                  "@id": "http://example.org/iiif/range/4d958842-ca90-49f7-8a3a-c525770f30b2",
+                  "@id": "http://example.org/iiif/range/5968a434-d527-4418-ba9d-17e3682863f6",
                   "@type": "sc:Range",
                   "label": "Main 7",
                   "canvases": [
@@ -852,7 +1157,7 @@
                   ]
                 },
                 {
-                  "@id": "http://example.org/iiif/range/20dc8ce5-d458-497c-9124-4623a09743a4",
+                  "@id": "http://example.org/iiif/range/8c5a8f90-8475-494d-8067-16b7ed82dba6",
                   "@type": "sc:Range",
                   "label": "Main 8",
                   "canvases": [
@@ -860,7 +1165,7 @@
                   ]
                 },
                 {
-                  "@id": "http://example.org/iiif/range/e6c8ebfc-d868-459a-8c1c-6975539ed5bc",
+                  "@id": "http://example.org/iiif/range/5f7acd3d-19d7-4b36-80a1-f09c70b92d21",
                   "@type": "sc:Range",
                   "label": "Main 9",
                   "canvases": [
@@ -868,7 +1173,7 @@
                   ]
                 },
                 {
-                  "@id": "http://example.org/iiif/range/f4ac59db-bf71-4e83-a74e-25f35741a0bb",
+                  "@id": "http://example.org/iiif/range/5b7cb434-5ceb-4532-88ba-57acc5b5949e",
                   "@type": "sc:Range",
                   "label": "Main 10",
                   "canvases": [
@@ -876,7 +1181,7 @@
                   ]
                 },
                 {
-                  "@id": "http://example.org/iiif/range/ec171d30-9c8d-4bba-b836-c46580e6b8c8",
+                  "@id": "http://example.org/iiif/range/be74269a-e9af-4c49-9c53-d5bd7b8e65f9",
                   "@type": "sc:Range",
                   "label": "Main 11",
                   "canvases": [
@@ -884,7 +1189,7 @@
                   ]
                 },
                 {
-                  "@id": "http://example.org/iiif/range/060d1c57-87b0-48cd-8c8a-ce17a899b340",
+                  "@id": "http://example.org/iiif/range/37c72463-5940-47c5-a2b4-e1e72b276091",
                   "@type": "sc:Range",
                   "label": "Main 12",
                   "canvases": [
@@ -892,7 +1197,7 @@
                   ]
                 },
                 {
-                  "@id": "http://example.org/iiif/range/2cd3064d-0e9e-4369-8c0e-f3d8f6de3ef0",
+                  "@id": "http://example.org/iiif/range/77a44c88-5a60-408e-84c3-c1b125ece91e",
                   "@type": "sc:Range",
                   "label": "Main 13",
                   "canvases": [
@@ -900,11 +1205,98 @@
                   ]
                 },
                 {
-                  "@id": "http://example.org/iiif/range/2d63e285-8b1e-4028-a28b-6b181daa2098",
+                  "@id": "http://example.org/iiif/range/345166eb-d4e3-4beb-9ca8-0742dfde8c42",
                   "@type": "sc:Range",
                   "label": "Main 31",
                   "canvases": [
                     "https://content.staatsbibliothek-berlin.de/dc/615574084-0032/canvas"
+                  ]
+                }
+              ]
+            },
+            {
+              "@id": "http://example.org/iiif/range/a6ec9298-a97b-49c1-9e11-19a316b28305",
+              "@type": "sc:Range",
+              "label": "LOC 2021667222",
+              "ranges": [
+                {
+                  "@id": "http://example.org/iiif/range/221292b4-47bf-43ae-b5ab-5dbfbf17c870",
+                  "@type": "sc:Range",
+                  "label": "Opening Page",
+                  "canvases": [
+                    "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000001"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/52a08289-6868-42c3-bc04-20f9f9daa726",
+                  "@type": "sc:Range",
+                  "label": "Main Text",
+                  "canvases": [
+                    "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000002"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/d87101a0-775c-4dab-8b99-31c725fa9887",
+                  "@type": "sc:Range",
+                  "label": "Main 7",
+                  "canvases": [
+                    "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000008"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/ff2e41b6-83a8-4650-be0a-b06c7e77cba5",
+                  "@type": "sc:Range",
+                  "label": "Main 8",
+                  "canvases": [
+                    "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000009"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/78570cef-2c10-4fcd-a5a0-95b752abae4c",
+                  "@type": "sc:Range",
+                  "label": "Main 9",
+                  "canvases": [
+                    "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000010"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/e4804c85-00b1-4bcc-8369-1d82ff578a5a",
+                  "@type": "sc:Range",
+                  "label": "Main 10",
+                  "canvases": [
+                    "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000011"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/fd9f2ec7-ab63-4aed-9263-e52c788401b5",
+                  "@type": "sc:Range",
+                  "label": "Main 11",
+                  "canvases": [
+                    "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000012"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/e1cbd84c-f709-4cf9-8b87-6e71e86f305b",
+                  "@type": "sc:Range",
+                  "label": "Main 12",
+                  "canvases": [
+                    "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000013"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/fe25d786-04dc-45ed-a6d9-54c4d26423ef",
+                  "@type": "sc:Range",
+                  "label": "Main 13",
+                  "canvases": [
+                    "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000014"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/ca074000-7bcb-42e7-9344-836b7f150c26",
+                  "@type": "sc:Range",
+                  "label": "Main 31",
+                  "canvases": [
+                    "https://tile.loc.gov/image-services/iiif/service:gdc:gdcwdl:wd:l_:07:49:4:wdl_07494:00000032"
                   ]
                 }
               ]
