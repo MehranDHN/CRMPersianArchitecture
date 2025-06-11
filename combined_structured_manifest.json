@@ -1,0 +1,239 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "http://example.org/iiif/manifest/69261137-2394-4072-9d28-0ba8b90b501c",
+  "label": "Combined Canvases from different Manifests on different GLAMs",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Combined Canvases from Different IIIF resources"
+    },
+    {
+      "label": "Project",
+      "value": "Experimental Virtual Collection"
+    },
+    {
+      "label": "Source",
+      "value": "Manchester, Harvard, Smithsonian, and others"
+    },
+    {
+      "label": "Creator",
+      "value": "Mehran DHN"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://example.org/iiif/sequence/84e84373-7d7a-4902-bb04-b2f7bd4c7ab9",
+      "@type": "sc:Sequence",
+      "label": "Default Sequence",
+      "canvases": [
+        {
+          "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page0",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6500,
+          "width": 3986,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/95135d12-63ca-49ec-9bf2-1fa785f5b0a9",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page0/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6500,
+                "width": 3986,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page0",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page0"
+            }
+          ]
+        },
+        {
+          "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page1",
+          "@type": "sc:Canvas",
+          "label": "2",
+          "height": 6500,
+          "width": 3494,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/f5a10986-9fba-4219-9280-81b67f924ca1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page1/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6500,
+                "width": 3494,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page1",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page1"
+            }
+          ]
+        },
+        {
+          "@id": "https://ids.si.edu/ids/iiif/canvas-FS-7239_23",
+          "@type": "sc:Canvas",
+          "label": "image FS-7239_23",
+          "height": 4200,
+          "width": 2975,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/3a7b1eeb-e20c-465f-bdab-13a611f48483",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://ids.si.edu/ids/iiif/FS-7239_23/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4200,
+                "width": 2975,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.si.edu/ids/iiif/FS-7239_23",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://ids.si.edu/ids/iiif/canvas-FS-7239_23"
+            }
+          ]
+        },
+        {
+          "@id": "https://ids.si.edu/ids/iiif/canvas-FS-7234_39",
+          "@type": "sc:Canvas",
+          "label": "image FS-7234_39",
+          "height": 4200,
+          "width": 2975,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/0f6bf2a5-b017-4ff6-87cf-dfff94cee643",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://ids.si.edu/ids/iiif/FS-7234_39/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4200,
+                "width": 2975,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.si.edu/ids/iiif/FS-7234_39",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://ids.si.edu/ids/iiif/canvas-FS-7234_39"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.lib.harvard.edu/manifests/ids:425510672/canvas/canvas-425510672.json",
+          "@type": "sc:Canvas",
+          "label": "Harvard University, Fine Arts Library, SS_17199727",
+          "height": 4278,
+          "width": 2922,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/8481d8ad-d601-488f-881f-d18103d83492",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://ids.lib.harvard.edu/ids/iiif/425510672/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4278,
+                "width": 2922,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.lib.harvard.edu/ids/iiif/425510672",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.lib.harvard.edu/manifests/ids:425510672/canvas/canvas-425510672.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "http://example.org/iiif/range/0a139ee1-dff3-40cf-837b-20cc06c7f02f",
+      "@type": "sc:Range",
+      "label": "Virtual Collection",
+      "ranges": [
+        {
+          "@id": "http://example.org/iiif/range/9d6b6ae3-8a5a-43d8-aeff-3cd8031ac437",
+          "@type": "sc:Range",
+          "label": "From manchester",
+          "ranges": [
+            {
+              "@id": "http://example.org/iiif/range/1cf39add-aa50-40f6-a8cf-7f2d6b571e51",
+              "@type": "sc:Range",
+              "label": "Cover",
+              "canvases": [
+                "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page0"
+              ]
+            },
+            {
+              "@id": "http://example.org/iiif/range/73ac766f-2465-4968-a2a9-3a49d9fdbf8a",
+              "@type": "sc:Range",
+              "label": "Selected folio",
+              "canvases": [
+                "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page1"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "http://example.org/iiif/range/ae5007cd-643d-40a8-a091-629e8b2d1b0a",
+          "@type": "sc:Range",
+          "label": "Harvard Manuscripts",
+          "ranges": [
+            {
+              "@id": "http://example.org/iiif/range/f29ff139-43d6-40f4-9e7a-b46855a52d0d",
+              "@type": "sc:Range",
+              "label": "One Illustration",
+              "canvases": [
+                "https://iiif.lib.harvard.edu/manifests/ids:425510672/canvas/canvas-425510672.json"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "http://example.org/iiif/range/c3959e2e-3241-4319-89f8-7efd46e508c8",
+          "@type": "sc:Range",
+          "label": "Jaft Owrang from Smithsonian",
+          "ranges": [
+            {
+              "@id": "http://example.org/iiif/range/9d04beb5-43e2-4119-9a3d-eb6fae249269",
+              "@type": "sc:Range",
+              "label": "FS-7239_23",
+              "canvases": [
+                "https://ids.si.edu/ids/iiif/canvas-FS-7239_23"
+              ]
+            },
+            {
+              "@id": "http://example.org/iiif/range/98f2b27e-829b-42ed-befd-fe31e1a568ba",
+              "@type": "sc:Range",
+              "label": "FS-7234_39",
+              "canvases": [
+                "https://ids.si.edu/ids/iiif/canvas-FS-7234_39"
+              ]
+            }
+          ]
+        }
+      ],
+      "viewingHint": "top"
+    }
+  ]
+}
