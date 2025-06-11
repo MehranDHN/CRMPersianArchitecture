@@ -1,0 +1,918 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "http://example.org/iiif/manifest/0786631b-cf17-4ec5-8729-3f3f3dea0f7f",
+  "label": "Combined Canvases Manifest",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Combined Canvases from Different IIIF resources"
+    },
+    {
+      "label": "Project",
+      "value": "Qesas al-anbiyâ Virtual Collection"
+    },
+    {
+      "label": "Source",
+      "value": "Gallica, Berlin, Columbia, and others"
+    },
+    {
+      "label": "Creator",
+      "value": "Mehran DHN"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://example.org/iiif/sequence/3f40431a-cbd4-4d7a-87d6-c79af4d01eb9",
+      "@type": "sc:Sequence",
+      "label": "Default Sequence",
+      "canvases": [
+        {
+          "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0001/canvas",
+          "@type": "sc:Canvas",
+          "label": " [1]",
+          "height": 3699,
+          "width": 2404,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/a0fe1c5c-b2c3-4be5-a172-c03ba160b1fd",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0001/full/full/0/default.png",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3699,
+                "width": 2404,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0001",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://content.staatsbibliothek-berlin.de/dc/615574084-0001/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0002/canvas",
+          "@type": "sc:Canvas",
+          "label": " [2]",
+          "height": 3699,
+          "width": 2404,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/5c2c682f-cd2b-42bf-94d7-69ff26f6d3e7",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0002/full/full/0/default.png",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3699,
+                "width": 2404,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0002",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://content.staatsbibliothek-berlin.de/dc/615574084-0002/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0008/canvas",
+          "@type": "sc:Canvas",
+          "label": "1v [8]",
+          "height": 3699,
+          "width": 2404,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/2fd5e56f-9620-44c1-bc4c-e3658bd68ac3",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0008/full/full/0/default.png",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3699,
+                "width": 2404,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0008",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://content.staatsbibliothek-berlin.de/dc/615574084-0008/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0009/canvas",
+          "@type": "sc:Canvas",
+          "label": "2r [9]",
+          "height": 3689,
+          "width": 2394,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/0ea9a92a-35dc-4c82-af53-189475cc6d1e",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0009/full/full/0/default.png",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3689,
+                "width": 2394,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0009",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://content.staatsbibliothek-berlin.de/dc/615574084-0009/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0010/canvas",
+          "@type": "sc:Canvas",
+          "label": "2v [10]",
+          "height": 3699,
+          "width": 2404,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/7de259ea-2c5c-4f56-bd2e-359cfc7f671e",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0010/full/full/0/default.png",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3699,
+                "width": 2404,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0010",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://content.staatsbibliothek-berlin.de/dc/615574084-0010/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0011/canvas",
+          "@type": "sc:Canvas",
+          "label": "3r [11]",
+          "height": 3699,
+          "width": 2404,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/4f303390-6abf-4676-91a5-1bf160e6f85b",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0011/full/full/0/default.png",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3699,
+                "width": 2404,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0011",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://content.staatsbibliothek-berlin.de/dc/615574084-0011/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0012/canvas",
+          "@type": "sc:Canvas",
+          "label": "3v [12]",
+          "height": 3699,
+          "width": 2404,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/7a733293-430a-4444-acdc-68eae361b4f7",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0012/full/full/0/default.png",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3699,
+                "width": 2404,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0012",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://content.staatsbibliothek-berlin.de/dc/615574084-0012/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0013/canvas",
+          "@type": "sc:Canvas",
+          "label": "4r [13]",
+          "height": 3699,
+          "width": 2404,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/d3f3af56-c19b-4725-8cef-961a48cb616c",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0013/full/full/0/default.png",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3699,
+                "width": 2404,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0013",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://content.staatsbibliothek-berlin.de/dc/615574084-0013/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0014/canvas",
+          "@type": "sc:Canvas",
+          "label": "4v [14]",
+          "height": 3699,
+          "width": 2404,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/fa9e98ae-4743-4f39-998b-6b98c88636a1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0014/full/full/0/default.png",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3699,
+                "width": 2404,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0014",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://content.staatsbibliothek-berlin.de/dc/615574084-0014/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0032/canvas",
+          "@type": "sc:Canvas",
+          "label": "13v [32]",
+          "height": 3699,
+          "width": 2404,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/7e933095-62dd-444d-87c9-ce52bbc53af5",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0032/full/full/0/default.png",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3699,
+                "width": 2404,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://content.staatsbibliothek-berlin.de/dc/615574084-0032",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://content.staatsbibliothek-berlin.de/dc/615574084-0032/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f1",
+          "@type": "sc:Canvas",
+          "label": "plat supérieur",
+          "height": 5841,
+          "width": 4028,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/4c0948c4-7a25-4257-90d5-83d2cf89d38d",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/f1/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5841,
+                "width": 4028,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/f1",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f1"
+            }
+          ]
+        },
+        {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f2",
+          "@type": "sc:Canvas",
+          "label": "contreplat sup.",
+          "height": 5875,
+          "width": 6404,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/4d76d581-9450-4936-8916-95a503a54b2a",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/f2/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5875,
+                "width": 6404,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/f2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f2"
+            }
+          ]
+        },
+        {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f13",
+          "@type": "sc:Canvas",
+          "label": "1r",
+          "height": 5844,
+          "width": 3792,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/bc5fe70e-ee72-40d6-bc69-5d95e0c62081",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/f13/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5844,
+                "width": 3792,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/f13",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f13"
+            }
+          ]
+        },
+        {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f14",
+          "@type": "sc:Canvas",
+          "label": "1v",
+          "height": 5892,
+          "width": 3792,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/b334a9f2-0502-4257-86df-61633fa783e5",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/f14/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5892,
+                "width": 3792,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/f14",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f14"
+            }
+          ]
+        },
+        {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f15",
+          "@type": "sc:Canvas",
+          "label": "2r",
+          "height": 5828,
+          "width": 3778,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/fc2cd426-5f34-4143-a032-19e52c04b743",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/f15/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5828,
+                "width": 3778,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/f15",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f15"
+            }
+          ]
+        },
+        {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f16",
+          "@type": "sc:Canvas",
+          "label": "2v",
+          "height": 5923,
+          "width": 3763,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/96dac876-212b-4ce1-b56c-396c33095671",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/f16/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5923,
+                "width": 3763,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/f16",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f16"
+            }
+          ]
+        },
+        {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f23",
+          "@type": "sc:Canvas",
+          "label": "6r",
+          "height": 5848,
+          "width": 3778,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/7d52f411-3cd6-42c9-b8ac-9247c013af0d",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/f23/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 5848,
+                "width": 3778,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/f23",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f23"
+            }
+          ]
+        },
+        {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f1",
+          "@type": "sc:Canvas",
+          "label": "plat supérieur",
+          "height": 4759,
+          "width": 3317,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/68054f71-5aaf-4cab-8713-5e512cf2b704",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/f1/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4759,
+                "width": 3317,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/f1",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f1"
+            }
+          ]
+        },
+        {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f11",
+          "@type": "sc:Canvas",
+          "label": "1r",
+          "height": 4752,
+          "width": 3231,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/f8f52364-15ce-41da-99a5-a0e79d299a94",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/f11/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4752,
+                "width": 3231,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/f11",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f11"
+            }
+          ]
+        },
+        {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f12",
+          "@type": "sc:Canvas",
+          "label": "1v",
+          "height": 4786,
+          "width": 3119,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/f3bea791-028c-4193-998d-e01085e563ae",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/f12/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4786,
+                "width": 3119,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/f12",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f12"
+            }
+          ]
+        },
+        {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f13",
+          "@type": "sc:Canvas",
+          "label": "2r",
+          "height": 4752,
+          "width": 3133,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/318c0fcf-e42a-4737-9be9-9fff891c6811",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/f13/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4752,
+                "width": 3133,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/f13",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f13"
+            }
+          ]
+        },
+        {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f14",
+          "@type": "sc:Canvas",
+          "label": "2v",
+          "height": 4786,
+          "width": 3119,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/9a2c2cc5-50fe-4f5e-925a-39334e2ae91e",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/f14/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4786,
+                "width": 3119,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/f14",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f14"
+            }
+          ]
+        },
+        {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f22",
+          "@type": "sc:Canvas",
+          "label": "6v",
+          "height": 4785,
+          "width": 3125,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/c5ad2756-5ea6-448b-819f-7b030e3aee00",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/f22/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4785,
+                "width": 3125,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/f22",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f22"
+            }
+          ]
+        },
+        {
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f39",
+          "@type": "sc:Canvas",
+          "label": "15r",
+          "height": 4753,
+          "width": 3188,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/cba71cc7-6a61-4781-be38-b029ccfd8efd",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/f39/full/full/0/native.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4753,
+                "width": 3188,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/f39",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f39"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "http://example.org/iiif/range/a121f742-f167-44d1-b5e8-8d7d77a19a56",
+      "@type": "sc:Range",
+      "label": "Qesas al-anbiyâ Collection",
+      "ranges": [
+        {
+          "@id": "http://example.org/iiif/range/d54dfe40-db23-46f9-a550-1563e16d9a89",
+          "@type": "sc:Range",
+          "label": "Selected Folios",
+          "ranges": [
+            {
+              "@id": "http://example.org/iiif/range/516f4100-551a-4117-941e-3fffb79ec868",
+              "@type": "sc:Range",
+              "label": "Gallica",
+              "ranges": [
+                {
+                  "@id": "http://example.org/iiif/range/0fe66c8d-d9ff-466c-8c83-8aae493f4226",
+                  "@type": "sc:Range",
+                  "label": "btv1b8410893r",
+                  "ranges": [
+                    {
+                      "@id": "http://example.org/iiif/range/c86783e4-68ed-4e70-8c62-26f58446084d",
+                      "@type": "sc:Range",
+                      "label": "Opening Page",
+                      "canvases": [
+                        "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f1"
+                      ]
+                    },
+                    {
+                      "@id": "http://example.org/iiif/range/33afdeba-9f29-466c-bd7d-090de459a958",
+                      "@type": "sc:Range",
+                      "label": "Main Text",
+                      "canvases": [
+                        "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f2"
+                      ]
+                    },
+                    {
+                      "@id": "http://example.org/iiif/range/12026193-9918-4b5c-87b5-c7e751383e27",
+                      "@type": "sc:Range",
+                      "label": "Main 12",
+                      "canvases": [
+                        "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f13"
+                      ]
+                    },
+                    {
+                      "@id": "http://example.org/iiif/range/217b62a8-f018-4bc2-a844-d8b20134c207",
+                      "@type": "sc:Range",
+                      "label": "Main 13",
+                      "canvases": [
+                        "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f14"
+                      ]
+                    },
+                    {
+                      "@id": "http://example.org/iiif/range/7fad1ba0-a8c6-4a85-924b-5913f7da938b",
+                      "@type": "sc:Range",
+                      "label": "Main 14",
+                      "canvases": [
+                        "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f15"
+                      ]
+                    },
+                    {
+                      "@id": "http://example.org/iiif/range/ad0ffb17-5691-4174-806f-a9902f33fcc3",
+                      "@type": "sc:Range",
+                      "label": "Main 15",
+                      "canvases": [
+                        "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f16"
+                      ]
+                    },
+                    {
+                      "@id": "http://example.org/iiif/range/b01ea2c1-e347-468d-8fcb-bfa7e64a938e",
+                      "@type": "sc:Range",
+                      "label": "Main 22",
+                      "canvases": [
+                        "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8410893r/canvas/f23"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/24af0cc2-6deb-4120-8166-c3af6b31cfe1",
+                  "@type": "sc:Range",
+                  "label": "btv1b84271768",
+                  "ranges": [
+                    {
+                      "@id": "http://example.org/iiif/range/b0bb3b77-183e-47f7-8291-f90a8c7881cb",
+                      "@type": "sc:Range",
+                      "label": "Opening Page",
+                      "canvases": [
+                        "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f1"
+                      ]
+                    },
+                    {
+                      "@id": "http://example.org/iiif/range/2156e50d-3a91-464d-b556-0cd171e49a5a",
+                      "@type": "sc:Range",
+                      "label": "Main Text",
+                      "canvases": [
+                        "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f11"
+                      ]
+                    },
+                    {
+                      "@id": "http://example.org/iiif/range/bd315769-eb18-440a-927c-c198a39efda6",
+                      "@type": "sc:Range",
+                      "label": "Main 12",
+                      "canvases": [
+                        "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f12"
+                      ]
+                    },
+                    {
+                      "@id": "http://example.org/iiif/range/b0f70884-f209-4035-9adc-8427d69e437d",
+                      "@type": "sc:Range",
+                      "label": "Main 13",
+                      "canvases": [
+                        "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f13"
+                      ]
+                    },
+                    {
+                      "@id": "http://example.org/iiif/range/d0c4258d-1472-40e7-b229-11f56493dae6",
+                      "@type": "sc:Range",
+                      "label": "Main 14",
+                      "canvases": [
+                        "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f14"
+                      ]
+                    },
+                    {
+                      "@id": "http://example.org/iiif/range/343d81cb-0833-4fc7-9573-b6c2a4713df8",
+                      "@type": "sc:Range",
+                      "label": "Main 15",
+                      "canvases": [
+                        "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f22"
+                      ]
+                    },
+                    {
+                      "@id": "http://example.org/iiif/range/109c2727-62b0-41b2-9efa-a08495f995f7",
+                      "@type": "sc:Range",
+                      "label": "Main 22",
+                      "canvases": [
+                        "https://gallica.bnf.fr/iiif/ark:/12148/btv1b84271768/canvas/f39"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@id": "http://example.org/iiif/range/98b71892-809a-4c5f-9384-fcb95c2ee7a6",
+              "@type": "sc:Range",
+              "label": "Berlin PPN615574084",
+              "ranges": [
+                {
+                  "@id": "http://example.org/iiif/range/bbb6e7b7-d388-4710-b352-ff5ac2149dbe",
+                  "@type": "sc:Range",
+                  "label": "Opening Page",
+                  "canvases": [
+                    "https://content.staatsbibliothek-berlin.de/dc/615574084-0001/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/11f77763-f3ad-4128-a9f8-cf7db80af692",
+                  "@type": "sc:Range",
+                  "label": "Main Text",
+                  "canvases": [
+                    "https://content.staatsbibliothek-berlin.de/dc/615574084-0002/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/4d958842-ca90-49f7-8a3a-c525770f30b2",
+                  "@type": "sc:Range",
+                  "label": "Main 7",
+                  "canvases": [
+                    "https://content.staatsbibliothek-berlin.de/dc/615574084-0008/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/20dc8ce5-d458-497c-9124-4623a09743a4",
+                  "@type": "sc:Range",
+                  "label": "Main 8",
+                  "canvases": [
+                    "https://content.staatsbibliothek-berlin.de/dc/615574084-0009/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/e6c8ebfc-d868-459a-8c1c-6975539ed5bc",
+                  "@type": "sc:Range",
+                  "label": "Main 9",
+                  "canvases": [
+                    "https://content.staatsbibliothek-berlin.de/dc/615574084-0010/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/f4ac59db-bf71-4e83-a74e-25f35741a0bb",
+                  "@type": "sc:Range",
+                  "label": "Main 10",
+                  "canvases": [
+                    "https://content.staatsbibliothek-berlin.de/dc/615574084-0011/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/ec171d30-9c8d-4bba-b836-c46580e6b8c8",
+                  "@type": "sc:Range",
+                  "label": "Main 11",
+                  "canvases": [
+                    "https://content.staatsbibliothek-berlin.de/dc/615574084-0012/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/060d1c57-87b0-48cd-8c8a-ce17a899b340",
+                  "@type": "sc:Range",
+                  "label": "Main 12",
+                  "canvases": [
+                    "https://content.staatsbibliothek-berlin.de/dc/615574084-0013/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/2cd3064d-0e9e-4369-8c0e-f3d8f6de3ef0",
+                  "@type": "sc:Range",
+                  "label": "Main 13",
+                  "canvases": [
+                    "https://content.staatsbibliothek-berlin.de/dc/615574084-0014/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/2d63e285-8b1e-4028-a28b-6b181daa2098",
+                  "@type": "sc:Range",
+                  "label": "Main 31",
+                  "canvases": [
+                    "https://content.staatsbibliothek-berlin.de/dc/615574084-0032/canvas"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "viewingHint": "top"
+    }
+  ]
+}
