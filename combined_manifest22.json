@@ -1,0 +1,490 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "http://example.org/iiif/manifest/3d816196-774c-4862-95cc-479db5101fd6",
+  "label": "Combined Canvases Manifest",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Combined Canvases from Different IIIF resources"
+    },
+    {
+      "label": "Project",
+      "value": "Qesas al-anbiyâ Virtual Collection"
+    },
+    {
+      "label": "Source",
+      "value": "Gallica, Berlin, LOC, and others"
+    },
+    {
+      "label": "Creator",
+      "value": "Mehran DHN"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://example.org/iiif/sequence/e5a71f53-24b2-4a75-bf16-1ab1c60a5827",
+      "@type": "sc:Sequence",
+      "label": "Default",
+      "canvases": [
+        {
+          "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page0",
+          "@type": "sc:Canvas",
+          "label": "1",
+          "height": 6500,
+          "width": 3986,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/14950cd3-4b83-447d-a627-752d2a7ac017",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page0/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6500,
+                "width": 3986,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page0",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page0"
+            }
+          ]
+        },
+        {
+          "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page4",
+          "@type": "sc:Canvas",
+          "label": "5",
+          "height": 6500,
+          "width": 3485,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/92965584-7e02-4446-9e04-839b0fcfc5b1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page4/full/!1024,1024/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6500,
+                "width": 3485,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page4",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page4"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.archive.org/iiif/ldpd_14734720_000$9/canvas",
+          "@type": "sc:Canvas",
+          "label": "Unnamed Canvas",
+          "height": 6408,
+          "width": 4037,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/3ff71ce1-5636-4348-8d66-b216009df434",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0009.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6408,
+                "width": 4037,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0009.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.archive.org/iiif/ldpd_14734720_000$9/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.archive.org/iiif/ldpd_14734720_000$21/canvas",
+          "@type": "sc:Canvas",
+          "label": "Unnamed Canvas",
+          "height": 6252,
+          "width": 4013,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/2f9b8d98-fd01-4311-b94e-fa6f8485de86",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0021.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6252,
+                "width": 4013,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0021.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.archive.org/iiif/ldpd_14734720_000$21/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.archive.org/iiif/ldpd_14734720_000$28/canvas",
+          "@type": "sc:Canvas",
+          "label": "Unnamed Canvas",
+          "height": 6327,
+          "width": 3887,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/609c21b5-1cef-4948-a070-b3a6eaa890a2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0028.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6327,
+                "width": 3887,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0028.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.archive.org/iiif/ldpd_14734720_000$28/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.archive.org/iiif/ldpd_14734720_000$44/canvas",
+          "@type": "sc:Canvas",
+          "label": "Unnamed Canvas",
+          "height": 6332,
+          "width": 3920,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/07e3f4ef-eff9-4fa0-af17-a77a089e43c9",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0044.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6332,
+                "width": 3920,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0044.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.archive.org/iiif/ldpd_14734720_000$44/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.archive.org/iiif/ldpd_14734720_000$50/canvas",
+          "@type": "sc:Canvas",
+          "label": "Unnamed Canvas",
+          "height": 6281,
+          "width": 3891,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/1d1fefb1-743f-4327-8379-d9cd1727e33f",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0050.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6281,
+                "width": 3891,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0050.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.archive.org/iiif/ldpd_14734720_000$50/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.archive.org/iiif/ldpd_14734720_000$62/canvas",
+          "@type": "sc:Canvas",
+          "label": "Unnamed Canvas",
+          "height": 6306,
+          "width": 3895,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/a6b5918b-5318-44e8-8490-0bf3858bbc0d",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0062.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6306,
+                "width": 3895,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0062.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.archive.org/iiif/ldpd_14734720_000$62/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.archive.org/iiif/ldpd_14734720_000$69/canvas",
+          "@type": "sc:Canvas",
+          "label": "Unnamed Canvas",
+          "height": 6319,
+          "width": 3968,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/3d18bf52-d53f-443b-9caf-4efba274d2cf",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0069.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6319,
+                "width": 3968,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0069.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.archive.org/iiif/ldpd_14734720_000$69/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.archive.org/iiif/ldpd_14734720_000$78/canvas",
+          "@type": "sc:Canvas",
+          "label": "Unnamed Canvas",
+          "height": 6303,
+          "width": 3875,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/e1086674-04a2-4f9d-8395-d7a4a76cd513",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0078.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6303,
+                "width": 3875,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0078.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.archive.org/iiif/ldpd_14734720_000$78/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.archive.org/iiif/ldpd_14734720_000$103/canvas",
+          "@type": "sc:Canvas",
+          "label": "Unnamed Canvas",
+          "height": 6280,
+          "width": 3931,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/8feb564b-ba46-45e7-973a-5accf59ceb5c",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0103.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6280,
+                "width": 3931,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0103.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.archive.org/iiif/ldpd_14734720_000$103/canvas"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.archive.org/iiif/ldpd_14734720_000$107/canvas",
+          "@type": "sc:Canvas",
+          "label": "Unnamed Canvas",
+          "height": 6256,
+          "width": 3880,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/c8c7a23d-b888-4ae9-b87e-d7c8ce6d6335",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0107.jp2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 6256,
+                "width": 3880,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0107.jp2",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.archive.org/iiif/ldpd_14734720_000$107/canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "http://example.org/iiif/range/44b94563-e634-4a15-91a0-46a82a9f5619",
+      "@type": "sc:Range",
+      "label": "Medieval and Early Modern Collection",
+      "ranges": [
+        {
+          "@id": "http://example.org/iiif/range/c9e74ee0-1c5a-426a-979c-4a92e4318d79",
+          "@type": "sc:Range",
+          "label": "Manuscripts",
+          "ranges": [
+            {
+              "@id": "http://example.org/iiif/range/ca4c4597-8947-4fd2-9e51-c0f607732bec",
+              "@type": "sc:Range",
+              "label": "Latin MS 24",
+              "ranges": [
+                {
+                  "@id": "http://example.org/iiif/range/c4b4f1ca-b33f-4b7a-b711-fb2664893275",
+                  "@type": "sc:Range",
+                  "label": "Chapters",
+                  "ranges": [
+                    {
+                      "@id": "http://example.org/iiif/range/a8933b24-e900-4aab-b07b-24e3914873bc",
+                      "@type": "sc:Range",
+                      "label": "Opening Page",
+                      "canvases": [
+                        "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page0"
+                      ]
+                    },
+                    {
+                      "@id": "http://example.org/iiif/range/b76292c4-8a77-4947-ab7c-552a0e741880",
+                      "@type": "sc:Range",
+                      "label": "Page 4",
+                      "canvases": [
+                        "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page4"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "@id": "http://example.org/iiif/range/7c9e4ac9-dff3-4e37-b17d-dc0679f5db58",
+              "@type": "sc:Range",
+              "label": "qiṣaṣ al-anbiyāʼ",
+              "ranges": [
+                {
+                  "@id": "http://example.org/iiif/range/15cc685b-ac10-4b40-bcf7-a94c5b533702",
+                  "@type": "sc:Range",
+                  "label": "Page 9",
+                  "canvases": [
+                    "https://iiif.archive.org/iiif/ldpd_14734720_000$9/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/41a1551f-9a3f-4ea5-968e-c45d12a068fd",
+                  "@type": "sc:Range",
+                  "label": "Page 21",
+                  "canvases": [
+                    "https://iiif.archive.org/iiif/ldpd_14734720_000$21/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/58497697-02c9-4730-9d62-7b3d42988fbc",
+                  "@type": "sc:Range",
+                  "label": "Page 28",
+                  "canvases": [
+                    "https://iiif.archive.org/iiif/ldpd_14734720_000$28/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/3984eead-d3e4-4f4d-b060-0c35913feda6",
+                  "@type": "sc:Range",
+                  "label": "Page 44",
+                  "canvases": [
+                    "https://iiif.archive.org/iiif/ldpd_14734720_000$44/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/f294030d-70da-4523-b90a-5ae6a86b35e1",
+                  "@type": "sc:Range",
+                  "label": "Page 50",
+                  "canvases": [
+                    "https://iiif.archive.org/iiif/ldpd_14734720_000$50/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/c1b6224b-bd77-467b-826e-7cd4aaef0eaa",
+                  "@type": "sc:Range",
+                  "label": "Page 62",
+                  "canvases": [
+                    "https://iiif.archive.org/iiif/ldpd_14734720_000$62/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/023c4db0-81f7-4f5a-aa6b-b99617fffd1c",
+                  "@type": "sc:Range",
+                  "label": "Page 69",
+                  "canvases": [
+                    "https://iiif.archive.org/iiif/ldpd_14734720_000$69/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/c8a4b40c-aa9f-4623-93df-7075b04ad92b",
+                  "@type": "sc:Range",
+                  "label": "Page 78",
+                  "canvases": [
+                    "https://iiif.archive.org/iiif/ldpd_14734720_000$78/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/36543c3f-0173-4808-8989-78f03843c33b",
+                  "@type": "sc:Range",
+                  "label": "Page 103",
+                  "canvases": [
+                    "https://iiif.archive.org/iiif/ldpd_14734720_000$103/canvas"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/e00792b4-a15e-4645-b295-b4d4ea25098a",
+                  "@type": "sc:Range",
+                  "label": "Page 107",
+                  "canvases": [
+                    "https://iiif.archive.org/iiif/ldpd_14734720_000$107/canvas"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
