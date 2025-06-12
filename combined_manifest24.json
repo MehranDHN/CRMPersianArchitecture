@@ -1,0 +1,259 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "type": "Manifest",
+  "id": "http://example.org/iiif/manifest/a484b0d7-8987-4f4c-8eb3-a0348cd32dd9",
+  "label": {
+    "en": [
+      "Combined Canvases Manifest"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Combined Canvases from Multiple Collections"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Source"
+        ]
+      },
+      "value": {
+        "en": [
+          "University of Manchester Library and Internet Archive"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "http://example.org/iiif/sequence/1c6390ee-83c9-4077-8c35-32c71d1e3c23",
+      "type": "Sequence",
+      "label": {
+        "en": [
+          "Default"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page0",
+          "type": "Canvas",
+          "label": {
+            "en": [
+              "1"
+            ]
+          },
+          "height": 6500,
+          "width": 3986,
+          "items": [
+            {
+              "id": "http://example.org/iiif/annotationpage/d4bb5811-ab36-4b78-8881-10c28e60f433",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "http://example.org/iiif/annotation/e13947be-a130-475b-b642-dee79708bfe7",
+                  "type": "Annotation",
+                  "motivation": "painting",
+                  "body": {
+                    "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page0/full/!1024,1024/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 6500,
+                    "width": 3986,
+                    "service": [
+                      {
+                        "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page0",
+                        "type": "ImageService3",
+                        "profile": "level2"
+                      }
+                    ]
+                  },
+                  "target": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page1",
+          "type": "Canvas",
+          "label": {
+            "en": [
+              "2"
+            ]
+          },
+          "height": 6500,
+          "width": 3494,
+          "items": [
+            {
+              "id": "http://example.org/iiif/annotationpage/fe8d8a50-3b59-4136-ba3d-71a9547957eb",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "http://example.org/iiif/annotation/59fca31c-6ae9-4725-8751-a22d0531655f",
+                  "type": "Annotation",
+                  "motivation": "painting",
+                  "body": {
+                    "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page1/full/!1024,1024/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 6500,
+                    "width": 3494,
+                    "service": [
+                      {
+                        "id": "https://luna.manchester.ac.uk/luna/servlet/iiif/Man4MedievalVC~4~4~994812~297644page1",
+                        "type": "ImageService3",
+                        "profile": "level2"
+                      }
+                    ]
+                  },
+                  "target": "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://iiif.archive.org/iiif/ldpd_14734720_000$0/canvas",
+          "type": "Canvas",
+          "label": {
+            "en": [
+              "Unnamed Canvas"
+            ]
+          },
+          "height": 6369,
+          "width": 4230,
+          "items": [
+            {
+              "id": "http://example.org/iiif/annotationpage/a1c89b57-98d9-4ef8-9ca1-bba46fda88bd",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "http://example.org/iiif/annotation/1fd9cf5b-9105-43a1-9105-6c4392f0bbea",
+                  "type": "Annotation",
+                  "motivation": "painting",
+                  "body": {
+                    "id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0000.jp2/full/max/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 6369,
+                    "width": 4230,
+                    "service": [
+                      {
+                        "id": "https://iiif.archive.org/image/iiif/3/ldpd_14734720_000%2Fldpd_14734720_000_jp2.zip%2Fldpd_14734720_000_jp2%2Fldpd_14734720_000_0000.jp2",
+                        "type": "ImageService3",
+                        "profile": "level2"
+                      }
+                    ]
+                  },
+                  "target": "https://iiif.archive.org/iiif/ldpd_14734720_000$0/canvas"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "id": "http://example.org/iiif/range/7973776b-b0ab-4c46-8f3d-2223fd8c1723",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Medieval and Early Modern Collection"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://example.org/iiif/range/72b2121f-6442-40d4-bd49-258432e61df3",
+          "type": "Range",
+          "label": {
+            "en": [
+              "Manuscripts"
+            ]
+          },
+          "items": [
+            {
+              "id": "http://example.org/iiif/range/57034720-1676-4eda-9462-99aa2440ca6c",
+              "type": "Range",
+              "label": {
+                "en": [
+                  "Latin MS 24"
+                ]
+              },
+              "items": [
+                {
+                  "id": "http://example.org/iiif/range/6147359b-cbc9-43c4-af42-286769e081fd",
+                  "type": "Range",
+                  "label": {
+                    "en": [
+                      "Chapters"
+                    ]
+                  },
+                  "items": [
+                    {
+                      "id": "http://example.org/iiif/range/9cedd50a-1f42-4bb2-8d77-2d6e3413842b",
+                      "type": "Range",
+                      "label": {
+                        "en": [
+                          "Opening Page"
+                        ]
+                      },
+                      "items": [
+                        "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page0"
+                      ]
+                    },
+                    {
+                      "id": "http://example.org/iiif/range/2ef52396-001f-4630-9e42-24341747f020",
+                      "type": "Range",
+                      "label": {
+                        "en": [
+                          "Main Text"
+                        ]
+                      },
+                      "items": [
+                        "https://luna.manchester.ac.uk/luna/servlet/iiif/m/Man4MedievalVC~4~4~994812~297644/canvas/c1/page1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://example.org/iiif/range/6779e86c-fe66-4e78-becb-cb2bb601a571",
+              "type": "Range",
+              "label": {
+                "en": [
+                  "New York Collection"
+                ]
+              },
+              "items": [
+                {
+                  "id": "http://example.org/iiif/range/cf4d9df7-fb57-49d1-b4bc-cd7e824a4594",
+                  "type": "Range",
+                  "label": {
+                    "en": [
+                      "Introduction"
+                    ]
+                  },
+                  "items": [
+                    "https://iiif.archive.org/iiif/ldpd_14734720_000$0/canvas"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
