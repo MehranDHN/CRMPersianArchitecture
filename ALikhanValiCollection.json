@@ -1,0 +1,2739 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/collection/collection.json",
+  "type": "Collection",
+  "label": {
+    "en": [
+      "Vali khan album1"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795174",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795174"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795175",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795175"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795176",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795176"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795177",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795177"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795178",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795178"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795179",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795179"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795180",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795180"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795181",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795181"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795182",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795182"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795183",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795183"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795184",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795184"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795185",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795185"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795186",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795186"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795187",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795187"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795188",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795188"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795189",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795189"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795190",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795190"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795191",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795191"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795192",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795192"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795193",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795193"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795194",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795194"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795195",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795195"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795196",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795196"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795197",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795197"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795198",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795198"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795199",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795199"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795200",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795200"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795201",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795201"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795202",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795202"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795203",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795203"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795204",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795204"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795205",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795205"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795206",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795206"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795207",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795207"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795208",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795208"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795209",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795209"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795210",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795210"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795211",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795211"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795212",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795212"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795213",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795213"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795214",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795214"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795215",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795215"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795216",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795216"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795217",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795217"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795218",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795218"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795219",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795219"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795220",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795220"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795221",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795221"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795222",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795222"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795223",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795223"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795224",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795224"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795225",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795225"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795226",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795226"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795227",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795227"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795228",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795228"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795229",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795229"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795230",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795230"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795231",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795231"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795232",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795232"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795233",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795233"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795234",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795234"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795235",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795235"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795236",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795236"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795237",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795237"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795238",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795238"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795239",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795239"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795240",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795240"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795241",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795241"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795242",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795242"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795243",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795243"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795244",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795244"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795245",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795245"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795246",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795246"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795247",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795247"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795248",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795248"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795249",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795249"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795250",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795250"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795251",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795251"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795252",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795252"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795253",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795253"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795254",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795254"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795255",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795255"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795256",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795256"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795257",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795257"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795258",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795258"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795259",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795259"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795260",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795260"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795261",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795261"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795262",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795262"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795263",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795263"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795264",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795264"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795265",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795265"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795266",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795266"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795267",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795267"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795268",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795268"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795269",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795269"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795270",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795270"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795271",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795271"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795272",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795272"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795273",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795273"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795274",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795274"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795275",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795275"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795276",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795276"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795277",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795277"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795278",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795278"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795279",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795279"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795280",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795280"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795281",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795281"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795282",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795282"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795283",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795283"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795284",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795284"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795285",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795285"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795286",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795286"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795287",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795287"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795288",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795288"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795289",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795289"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795290",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795290"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795291",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795291"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795292",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795292"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795293",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795293"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795294",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795294"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795295",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795295"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795296",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795296"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795297",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795297"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795298",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795298"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795299",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795299"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795300",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795300"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795301",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795301"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795302",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795302"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795303",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795303"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795304",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795304"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795305",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795305"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795306",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795306"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795307",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795307"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795308",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795308"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795309",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795309"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795310",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795310"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795311",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795311"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795312",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795312"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795313",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795313"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795314",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795314"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795315",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795315"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795316",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795316"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795317",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795317"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795318",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795318"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795319",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795319"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795320",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795320"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795321",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795321"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795322",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795322"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795323",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795323"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795324",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795324"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795325",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795325"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795326",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795326"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795327",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795327"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795328",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795328"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795329",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795329"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795330",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795330"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795331",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795331"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795332",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795332"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795333",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795333"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795334",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795334"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795335",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795335"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795336",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795336"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795337",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795337"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795338",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795338"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795339",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795339"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795340",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795340"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795341",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795341"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795342",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795342"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795343",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795343"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795344",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795344"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795345",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795345"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795346",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795346"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795347",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795347"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795348",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795348"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795349",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795349"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795350",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795350"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795351",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795351"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795352",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795352"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795353",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795353"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795354",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795354"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795355",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795355"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795356",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795356"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795357",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795357"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795358",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795358"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795359",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795359"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795360",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795360"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795361",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795361"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795362",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795362"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795363",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795363"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795364",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795364"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795365",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795365"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795366",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795366"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795367",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795367"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795368",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795368"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795369",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795369"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795370",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795370"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795371",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795371"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795372",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795372"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795373",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795373"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795374",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795374"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795375",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795375"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795376",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795376"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795377",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795377"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795378",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795378"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795379",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795379"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795380",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795380"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795381",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795381"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795382",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795382"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795383",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795383"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795384",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795384"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795385",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795385"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795386",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795386"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795387",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795387"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795388",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795388"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795389",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795389"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795390",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795390"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795391",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795391"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795392",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795392"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795393",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795393"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795394",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795394"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795395",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795395"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795396",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795396"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795397",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795397"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795398",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795398"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795399",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795399"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795400",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795400"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795401",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795401"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795402",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795402"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795403",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795403"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795404",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795404"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795405",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795405"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795406",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795406"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795407",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795407"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795408",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795408"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795409",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795409"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795410",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795410"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795411",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795411"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795412",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795412"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795413",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795413"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795414",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795414"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795415",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795415"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795416",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795416"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795417",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795417"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795418",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795418"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795419",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795419"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795420",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795420"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795421",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795421"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795422",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795422"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795423",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795423"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795424",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795424"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795425",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795425"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795426",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795426"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795427",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795427"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795428",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795428"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795429",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795429"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795430",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795430"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795431",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795431"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795432",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795432"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795433",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795433"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795434",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795434"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795435",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795435"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795436",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795436"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795437",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795437"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795438",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795438"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795439",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795439"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795440",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795440"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795441",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795441"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795442",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795442"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795443",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795443"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795444",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795444"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795445",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795445"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795446",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795446"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795447",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795447"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795448",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795448"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795449",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795449"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795450",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795450"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795451",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795451"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795452",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795452"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795453",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795453"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795454",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795454"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795455",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795455"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795456",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795456"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795457",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795457"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795458",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795458"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795459",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795459"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795460",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795460"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795461",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795461"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795462",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795462"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795463",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795463"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795464",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795464"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795465",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795465"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795466",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795466"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795467",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795467"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795468",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795468"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795469",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795469"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795470",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795470"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795471",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795471"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795472",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795472"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795473",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795473"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795474",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795474"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795475",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795475"
+        ]
+      }
+    },
+    {
+      "id": "https://iiif.lib.harvard.edu/manifests/ids:11795476",
+      "type": "Manifest",
+      "label": {
+        "none": [
+          "image : 11795476"
+        ]
+      }
+    }
+  ]
+}
