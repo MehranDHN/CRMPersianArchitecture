@@ -1,0 +1,168 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "http://example.org/iiif/manifest/2e432d53-ce00-44a7-914d-3327f24274a2",
+  "label": "Combined Canvases Manifest",
+  "metadata": [
+    {
+      "label": "Title",
+      "value": "Combined Canvases from Multiple manifests"
+    },
+    {
+      "label": "Source",
+      "value": "University of Harvard"
+    },
+    {
+      "label": "Description",
+      "value": "Ali khan Vali's Photograph album"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "http://example.org/iiif/sequence/15ad9988-7082-46aa-9a0f-e2fcab1cdab0",
+      "@type": "sc:Sequence",
+      "label": "Default",
+      "canvases": [
+        {
+          "@id": "https://iiif.lib.harvard.edu/manifests/ids:11795174/canvas/canvas-11795174.json",
+          "@type": "sc:Canvas",
+          "label": "Harvard University, Fine Arts Library, W378702_1",
+          "height": 1066,
+          "width": 721,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/3ff5e07a-4c11-486b-8a2c-6a72b896ac3d",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://ids.lib.harvard.edu/ids/iiif/11795174/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1066,
+                "width": 721,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.lib.harvard.edu/ids/iiif/11795174",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.lib.harvard.edu/manifests/ids:11795174/canvas/canvas-11795174.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.lib.harvard.edu/manifests/ids:11795175/canvas/canvas-11795175.json",
+          "@type": "sc:Canvas",
+          "label": "Harvard University, Fine Arts Library, W378718_1",
+          "height": 1047,
+          "width": 804,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/c536d5d9-bd7d-4738-9139-9f7c619366fd",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://ids.lib.harvard.edu/ids/iiif/11795175/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1047,
+                "width": 804,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.lib.harvard.edu/ids/iiif/11795175",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.lib.harvard.edu/manifests/ids:11795175/canvas/canvas-11795175.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.lib.harvard.edu/manifests/ids:11795176/canvas/canvas-11795176.json",
+          "@type": "sc:Canvas",
+          "label": "Harvard University, Fine Arts Library, W378724_1",
+          "height": 1812,
+          "width": 1353,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/233991ab-85a6-4e73-9b44-2939242d5fc6",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://ids.lib.harvard.edu/ids/iiif/11795176/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1812,
+                "width": 1353,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.lib.harvard.edu/ids/iiif/11795176",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.lib.harvard.edu/manifests/ids:11795176/canvas/canvas-11795176.json"
+            }
+          ]
+        },
+        {
+          "@id": "https://iiif.lib.harvard.edu/manifests/ids:11795178/canvas/canvas-11795178.json",
+          "@type": "sc:Canvas",
+          "label": "Harvard University, Fine Arts Library, W378731_1",
+          "height": 1845,
+          "width": 1290,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/00cce8c7-23e8-43ac-a8f8-b56ec0bc90fb",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://ids.lib.harvard.edu/ids/iiif/11795178/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1845,
+                "width": 1290,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.lib.harvard.edu/ids/iiif/11795178",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.lib.harvard.edu/manifests/ids:11795178/canvas/canvas-11795178.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "@id": "http://example.org/iiif/range/2312074f-23ce-4aa5-b490-deae3243cc72",
+      "@type": "sc:Range",
+      "label": "Ali Khan photo album from Harvard",
+      "ranges": [
+        {
+          "@id": "http://example.org/iiif/range/c79b3948-1ab1-4274-aa96-95079ee31088",
+          "@type": "sc:Range",
+          "label": "Photo Album",
+          "ranges": [
+            {
+              "@id": "http://example.org/iiif/range/9053b7b3-0988-4713-af2f-f99e6a5db2a9",
+              "@type": "sc:Range",
+              "label": "Ali khan Collection",
+              "ranges": [
+                {
+                  "@id": "http://example.org/iiif/range/e89f17ca-e7c1-4de3-b351-56917bf81ae2",
+                  "@type": "sc:Range",
+                  "label": "A Drawing",
+                  "canvases": [
+                    "https://iiif.lib.harvard.edu/manifests/ids:11795174/canvas/canvas-11795174.json"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
