@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
-  "@id": "http://example.org/iiif/manifest/2e432d53-ce00-44a7-914d-3327f24274a2",
+  "@id": "http://example.org/iiif/manifest/d0586b4e-df74-446b-b126-4c098811c6c8",
   "label": "Combined Canvases Manifest",
   "metadata": [
     {
@@ -19,7 +19,7 @@
   ],
   "sequences": [
     {
-      "@id": "http://example.org/iiif/sequence/15ad9988-7082-46aa-9a0f-e2fcab1cdab0",
+      "@id": "http://example.org/iiif/sequence/9aefa4a0-9721-4900-9502-6558ecce10de",
       "@type": "sc:Sequence",
       "label": "Default",
       "canvases": [
@@ -31,7 +31,7 @@
           "width": 721,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/3ff5e07a-4c11-486b-8a2c-6a72b896ac3d",
+              "@id": "http://example.org/iiif/annotation/20661894-d6a9-4250-8653-357adc5c7eaf",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -58,7 +58,7 @@
           "width": 804,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/c536d5d9-bd7d-4738-9139-9f7c619366fd",
+              "@id": "http://example.org/iiif/annotation/dd65e898-5888-46f1-8430-08921857f790",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -85,7 +85,7 @@
           "width": 1353,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/233991ab-85a6-4e73-9b44-2939242d5fc6",
+              "@id": "http://example.org/iiif/annotation/21598250-2662-44b7-8d71-ff0d67dca57c",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -105,6 +105,33 @@
           ]
         },
         {
+          "@id": "https://iiif.lib.harvard.edu/manifests/ids:11795177/canvas/canvas-11795177.json",
+          "@type": "sc:Canvas",
+          "label": "Harvard University, Fine Arts Library, W378728_1",
+          "height": 844,
+          "width": 597,
+          "images": [
+            {
+              "@id": "http://example.org/iiif/annotation/f9f39b4d-fa44-4390-933e-a732609abbf6",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://ids.lib.harvard.edu/ids/iiif/11795177/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 844,
+                "width": 597,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://ids.lib.harvard.edu/ids/iiif/11795177",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://iiif.lib.harvard.edu/manifests/ids:11795177/canvas/canvas-11795177.json"
+            }
+          ]
+        },
+        {
           "@id": "https://iiif.lib.harvard.edu/manifests/ids:11795178/canvas/canvas-11795178.json",
           "@type": "sc:Canvas",
           "label": "Harvard University, Fine Arts Library, W378731_1",
@@ -112,7 +139,7 @@
           "width": 1290,
           "images": [
             {
-              "@id": "http://example.org/iiif/annotation/00cce8c7-23e8-43ac-a8f8-b56ec0bc90fb",
+              "@id": "http://example.org/iiif/annotation/9fd4357a-eb28-46d6-8f82-3506d3a16293",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
@@ -136,26 +163,58 @@
   ],
   "structures": [
     {
-      "@id": "http://example.org/iiif/range/2312074f-23ce-4aa5-b490-deae3243cc72",
+      "@id": "http://example.org/iiif/range/9b47a378-86e2-4108-a92d-da2009d24a5a",
       "@type": "sc:Range",
       "label": "Ali Khan photo album from Harvard",
       "ranges": [
         {
-          "@id": "http://example.org/iiif/range/c79b3948-1ab1-4274-aa96-95079ee31088",
+          "@id": "http://example.org/iiif/range/aabb2c9c-53b3-494a-b186-69de72bd00d9",
           "@type": "sc:Range",
           "label": "Photo Album",
           "ranges": [
             {
-              "@id": "http://example.org/iiif/range/9053b7b3-0988-4713-af2f-f99e6a5db2a9",
+              "@id": "http://example.org/iiif/range/981c33d5-60e9-4e10-9f21-d0d8b4c7b220",
               "@type": "sc:Range",
               "label": "Ali khan Collection",
               "ranges": [
                 {
-                  "@id": "http://example.org/iiif/range/e89f17ca-e7c1-4de3-b351-56917bf81ae2",
+                  "@id": "http://example.org/iiif/range/ec70958f-d0e5-49b1-b52c-36e49ac73c65",
                   "@type": "sc:Range",
                   "label": "A Drawing",
                   "canvases": [
                     "https://iiif.lib.harvard.edu/manifests/ids:11795174/canvas/canvas-11795174.json"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/22b8b240-2aec-4743-99d0-f45f60a59b56",
+                  "@type": "sc:Range",
+                  "label": "A Religious Drawing",
+                  "canvases": [
+                    "https://iiif.lib.harvard.edu/manifests/ids:11795175/canvas/canvas-11795175.json"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/e9d951ae-18bc-47ac-a4c1-ef9377736db1",
+                  "@type": "sc:Range",
+                  "label": "Prophet Mohammad Drawing",
+                  "canvases": [
+                    "https://iiif.lib.harvard.edu/manifests/ids:11795176/canvas/canvas-11795176.json"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/1b45e33b-0f04-43e5-86f7-74890ce35ac0",
+                  "@type": "sc:Range",
+                  "label": "Imam Ali Drawing",
+                  "canvases": [
+                    "https://iiif.lib.harvard.edu/manifests/ids:11795177/canvas/canvas-11795177.json"
+                  ]
+                },
+                {
+                  "@id": "http://example.org/iiif/range/6f828920-0b30-49d3-b5bd-4e1eba366fdf",
+                  "@type": "sc:Range",
+                  "label": "Naseredin Shah",
+                  "canvases": [
+                    "https://iiif.lib.harvard.edu/manifests/ids:11795178/canvas/canvas-11795178.json"
                   ]
                 }
               ]
