@@ -3,11 +3,11 @@
     "http://iiif.io/api/extension/navplace/context.json",
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "id": "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/manifest.json",
+  "id": "https://raw.githubusercontent.com/MehranDHN/CRMPersianArchitecture/refs/heads/main/Jamemanifest.json",
   "type": "Manifest",
   "label": {
     "en": [
-      "Laocöon, geolocated sculpture and painting."
+      "Isfahan"
     ]
   },
   "items": [
@@ -18,7 +18,7 @@
       "width": 2315,
       "label": {
         "en": [
-          "Front of Bronze"
+          "First View"
         ]
       },
       "navPlace": {
