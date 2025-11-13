@@ -1,0 +1,258 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Laocöon, geolocated sculpture and painting."
+    ]
+  },
+  "items": [
+    {
+      "id": "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/canvas/1",
+      "type": "Canvas",
+      "height": 3000,
+      "width": 2315,
+      "label": {
+        "en": [
+          "Front of Bronze"
+        ]
+      },
+      "navPlace": {
+        "id": "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/feature-collection/1",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/feature/1",
+            "type": "Feature",
+            "properties": {
+              "label": {
+                "en": [
+                  "Current Location of the Laocoön Bronze"
+                ],
+                "it": [
+                  "Ubicazione attuale del Bronzo Laocoonte e i suoi figli"
+                ]
+              }
+            },
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  51.6841423436187,
+                  32.66954447269295
+                ],
+                [
+                  51.684528177629005,
+                  32.67002979608917
+                ],
+                [
+                  51.68505592759689,
+                  32.67039565352151
+                ],
+                [
+                  51.685144625070706,
+                  32.670324722095444
+                ],
+                [
+                  51.68521558304951,
+                  32.67038445382627
+                ],
+                [
+                  51.68529984564955,
+                  32.670324722095444
+                ],
+                [
+                  51.685384108249565,
+                  32.67041058644632
+                ],
+                [
+                  51.685427200444934,
+                  32.67039154705827
+                ],
+                [
+                  51.685465340430056,
+                  32.6704209774191
+                ],
+                [
+                  51.68549712375216,
+                  32.670399573521294
+                ],
+                [
+                  51.68553049624077,
+                  32.67042365290597
+                ],
+                [
+                  51.685597241216556,
+                  32.670382182850815
+                ],
+                [
+                  51.68567370690957,
+                  32.67049751417812
+                ],
+                [
+                  51.685863594676164,
+                  32.670398427289655
+                ],
+                [
+                  51.68587518503722,
+                  32.67025343238558
+                ],
+                [
+                  51.68585396417856,
+                  32.670137366794506
+                ],
+                [
+                  51.685943441204074,
+                  32.66999582595075
+                ],
+                [
+                  51.685898095985436,
+                  32.669923830786004
+                ],
+                [
+                  51.68594839088067,
+                  32.66988144114069
+                ],
+                [
+                  51.68592320045644,
+                  32.66984332662011
+                ],
+                [
+                  51.68610429891589,
+                  32.66974156033696
+                ],
+                [
+                  51.68586353200189,
+                  32.669451067161305
+                ],
+                [
+                  51.68586807384273,
+                  32.669322822994346
+                ],
+                [
+                  51.685780587183814,
+                  32.66922168907078
+                ],
+                [
+                  51.68568217719047,
+                  32.669125159688505
+                ],
+                [
+                  51.6855218460781,
+                  32.66902406294538
+                ],
+                [
+                  51.68549091051196,
+                  32.6690562721827
+                ],
+                [
+                  51.685211231624066,
+                  32.668865555031445
+                ],
+                [
+                  51.684136355809386,
+                  32.66954293262344
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/anno-page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/anno/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/28473c77da3deebe4375c3a50572d9d3-laocoon/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 2315,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/28473c77da3deebe4375c3a50572d9d3-laocoon",
+                    "profile": "level1",
+                    "type": "ImageService3"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/canvas/2",
+      "type": "Canvas",
+      "height": 3259,
+      "width": 4096,
+      "label": {
+        "en": [
+          "Painting"
+        ]
+      },
+      "navPlace": {
+        "id": "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/feature-collection/2",
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "id": "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/feature/2",
+            "type": "Feature",
+            "properties": {
+              "label": {
+                "en": [
+                  "Current Location of Painting"
+                ]
+              }
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -77.0199025,
+                38.8920717
+              ]
+            }
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/anno-page/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/anno/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/58763298b61c2a99f78ff94d8364c639-laocoon_1946_18_1/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3259,
+                "width": 4096,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/58763298b61c2a99f78ff94d8364c639-laocoon_1946_18_1",
+                    "profile": "level1",
+                    "type": "ImageService3"
+                  }
+                ]
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/canvas/2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
