@@ -179,7 +179,7 @@
                 "width": 2315,
                 "service": [
                   {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/28473c77da3deebe4375c3a50572d9d3-laocoon",
+                    "id": "https://maior-images.memorix.nl/cia/iiif/5dfb378f-19ed-3c6c-1810-201b69a716b2",
                     "profile": "level1",
                     "type": "ImageService3"
                   }
