@@ -235,14 +235,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/58763298b61c2a99f78ff94d8364c639-laocoon_1946_18_1/full/max/0/default.jpg",
+                "id": "https://maior-images.memorix.nl/cia/iiif/4f1d01bb-4ee0-be55-9e36-3e2f2331835c/full/7126,/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3259,
                 "width": 4096,
                 "service": [
                   {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/58763298b61c2a99f78ff94d8364c639-laocoon_1946_18_1",
+                    "id": "https://maior-images.memorix.nl/cia/iiif/4f1d01bb-4ee0-be55-9e36-3e2f2331835c",
                     "profile": "level1",
                     "type": "ImageService3"
                   }
